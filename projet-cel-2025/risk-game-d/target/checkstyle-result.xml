@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\DiceController.java">
+<error line="1" severity="error" message="File length is 614 lines (max allowed is 300)." source="com.puppycrawl.tools.checkstyle.checks.sizes.FileLengthCheck"/>
+<error line="493" column="5" severity="error" message="Method startRoll length is 75 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\GamePlayController.java">
+<error line="1" severity="error" message="File length is 1,206 lines (max allowed is 300)." source="com.puppycrawl.tools.checkstyle.checks.sizes.FileLengthCheck"/>
+<error line="41" column="1" severity="error" message="Number of private methods is 31 (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodCountCheck"/>
+<error line="41" column="1" severity="error" message="Total number of methods is 56 (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodCountCheck"/>
+<error line="336" column="5" severity="error" message="Method initialize length is 52 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\TournamentController.java">
+<error line="1" severity="error" message="File length is 495 lines (max allowed is 300)." source="com.puppycrawl.tools.checkstyle.checks.sizes.FileLengthCheck"/>
+<error line="238" column="5" severity="error" message="Method register length is 55 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="444" column="5" severity="error" message="Method start length is 49 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\model\Player.java">
+<error line="1" severity="error" message="File length is 354 lines (max allowed is 300)." source="com.puppycrawl.tools.checkstyle.checks.sizes.FileLengthCheck"/>
+<error line="19" column="1" severity="error" message="Total number of methods is 32 (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodCountCheck"/>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\model\TournamentModel.java">
+<error line="109" column="5" severity="error" message="Method playTurnForPlayer length is 47 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="162" column="5" severity="error" message="Method handleAttackPhase length is 43 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\MapEditor.java">
+<error line="1" severity="error" message="File length is 668 lines (max allowed is 300)." source="com.puppycrawl.tools.checkstyle.checks.sizes.FileLengthCheck"/>
+<error line="23" column="1" severity="error" message="Total number of methods is 24 (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodCountCheck"/>
+<error line="62" column="9" severity="error" message="Method createNewMap length is 60 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="168" column="5" severity="error" message="Method handleAddCountries length is 58 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="317" column="9" severity="error" message="Method editExistingMap length is 60 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="424" column="5" severity="error" message="Method handleEditAddCountries length is 58 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\MapSerializer.java">
+<error line="13" column="5" severity="error" message="Method serialize length is 42 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\MapValidate.java">
+<error line="1" severity="error" message="File length is 462 lines (max allowed is 300)." source="com.puppycrawl.tools.checkstyle.checks.sizes.FileLengthCheck"/>
+<error line="155" column="5" severity="error" message="Method validateMapFile length is 233 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\strategy\Aggressive.java">
+<error line="131" column="5" severity="error" message="Method fortificationPhase length is 43 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\strategy\Cheater.java">
+<error line="97" column="5" severity="error" message="Method attackPhase length is 43 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+</checkstyle>

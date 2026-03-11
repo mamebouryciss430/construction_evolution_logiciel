@@ -1,0 +1,15 @@
+com\risk\strategy\AggressiveStrategyTest.class
+com\risk\validate\MapValidatorTest.class
+com\risk\ProjectTestSuite.class
+com\risk\strategy\StrategyTestSuite.class
+com\risk\strategy\RandomStrategyTest.class
+com\risk\model\ContinentTest.class
+com\risk\model\CountryTest.class
+com\risk\strategy\BenevolentStrategyTest.class
+com\risk\strategy\CheaterStrategyTest.class
+com\risk\mapeditor\EdgeTest.class
+com\risk\model\TournamentModelTest.class
+com\risk\validate\ValidateTestSuite.class
+com\risk\model\ModelTestSuite.class
+com\risk\model\ModelTest.class
+com\risk\model\PlayerTest.class

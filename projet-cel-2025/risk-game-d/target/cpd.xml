@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd xmlns="https://pmd-code.org/schema/cpd-report"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         pmdVersion="7.14.0"
+         timestamp="2025-12-19T18:41:34.2920194+01:00"
+         version="1.0.0"
+         xsi:schemaLocation="https://pmd-code.org/schema/cpd-report https://pmd.github.io/schema/cpd-report_1_0_0.xsd">
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\CardController.java"
+         totalNumberOfTokens="448"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\DiceController.java"
+         totalNumberOfTokens="2460"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\GamePlayController.java"
+         totalNumberOfTokens="4488"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\PlayerDetailsController.java"
+         totalNumberOfTokens="828"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\TournamentController.java"
+         totalNumberOfTokens="1654"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\model\ArmyAllocator.java"
+         totalNumberOfTokens="242"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\model\Card.java"
+         totalNumberOfTokens="545"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\model\CardManager.java"
+         totalNumberOfTokens="143"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\model\Continent.java"
+         totalNumberOfTokens="248"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\model\Country.java"
+         totalNumberOfTokens="338"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\model\Dice.java"
+         totalNumberOfTokens="694"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\model\ICardType.java"
+         totalNumberOfTokens="17"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\model\IPlayerType.java"
+         totalNumberOfTokens="25"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\model\NotificationManager.java"
+         totalNumberOfTokens="44"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\model\Player.java"
+         totalNumberOfTokens="1076"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\model\PlayerPhaseManager.java"
+         totalNumberOfTokens="673"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\model\PlayerVictoryManager.java"
+         totalNumberOfTokens="176"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\model\PlayerWorldDomination.java"
+         totalNumberOfTokens="183"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\model\TournamentModel.java"
+         totalNumberOfTokens="1004"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\model\ValidationResult.java"
+         totalNumberOfTokens="52"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\ConnectedGraph.java"
+         totalNumberOfTokens="355"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\MapEditor.java"
+         totalNumberOfTokens="3759"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\MapEditorActions.java"
+         totalNumberOfTokens="185"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\MapEditorPrinter.java"
+         totalNumberOfTokens="145"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\MapGraph.java"
+         totalNumberOfTokens="663"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\MapIO.java"
+         totalNumberOfTokens="355"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\MapSerializer.java"
+         totalNumberOfTokens="259"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\MapValidate.java"
+         totalNumberOfTokens="2475"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\StartUpPhase.java"
+         totalNumberOfTokens="469"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\Util\WindowUtil.java"
+         totalNumberOfTokens="570"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\gameplay\FortificationPhase.java"
+         totalNumberOfTokens="59"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\gameplay\ReinforcementPhase.java"
+         totalNumberOfTokens="168"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\gameplay\RoundRobin.java"
+         totalNumberOfTokens="111"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\saveload\ResourceManager.java"
+         totalNumberOfTokens="78"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\saveload\SaveData.java"
+         totalNumberOfTokens="130"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\strategy\Aggressive.java"
+         totalNumberOfTokens="1186"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\strategy\Benevolent.java"
+         totalNumberOfTokens="873"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\strategy\Cheater.java"
+         totalNumberOfTokens="1007"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\strategy\Human.java"
+         totalNumberOfTokens="826"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\strategy\PlayerBehaviour.java"
+         totalNumberOfTokens="239"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\strategy\PlayerBehaviourFactory.java"
+         totalNumberOfTokens="162"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\strategy\Random.java"
+         totalNumberOfTokens="1139"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\view\CardView.java"
+         totalNumberOfTokens="115"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\view\DiceView.java"
+         totalNumberOfTokens="124"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\view\GamePlayView.java"
+         totalNumberOfTokens="246"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\view\LaunchGameDriver.java"
+         totalNumberOfTokens="522"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\view\LoadGame.java"
+         totalNumberOfTokens="198"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\view\PlayerDetailsView.java"
+         totalNumberOfTokens="184"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\view\TournamentView.java"
+         totalNumberOfTokens="116"/>
+   <duplication lines="60" tokens="474">
+      <file begintoken="16296"
+            column="36"
+            endcolumn="17"
+            endline="227"
+            endtoken="16769"
+            line="168"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\MapEditor.java"/>
+      <file begintoken="17868"
+            column="40"
+            endcolumn="17"
+            endline="483"
+            endtoken="18341"
+            line="424"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\MapEditor.java"/>
+      <codefragment><![CDATA[    private void handleAddCountries(Scanner scan) {
+        System.out.println("Please enter number of countries to be added.");
+        int count;
+        try {
+            count = Integer.parseInt(scan.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("\nPlease enter a valid number.");
+            return;
+        }
+
+        System.out.println("\nEnter Countries details in below format.\n");
+        System.out.println("Country Name, X-value, Y-value, Continent Name, List of adjacent countries separated by ,");
+
+        for (int i = 0; i < count; ++i) {
+            String line = scan.nextLine();
+            if (!line.trim().isEmpty()) {
+                String[] input = line.split(",");
+
+                if (mapIO.getMapGraph().getContinents().get(input[3].trim()) == null) {
+                    System.out.println("Continent " + input[3].trim() + " does not exist.");
+                    --i;
+                    continue;
+                }
+
+                Country country;
+                if (!mapIO.getMapGraph().getCountrySet().containsKey(input[0].trim())) {
+                    country = new Country(input[0].trim());
+                } else {
+                    country = mapIO.getMapGraph().getCountrySet().get(input[0].trim());
+                }
+
+                country.setContinent(mapIO.getMapGraph().getContinents().get(input[3].trim()).getName());
+                country.setPartOfContinent(mapIO.getMapGraph().getContinents().get(input[3].trim()));
+                country.setxValue(input[1]);
+                country.setyValue(input[2]);
+
+                ArrayList<Country> countries = new ArrayList<>();
+                for (int j = 4; j < input.length; ++j) {
+                    Country adjacentCountry;
+                    if (!mapIO.getMapGraph().getCountrySet().containsKey(input[j].trim())) {
+                        adjacentCountry = new Country(input[j].trim());
+                        mapIO.getMapGraph().getCountrySet().put(input[j].trim(), adjacentCountry);
+                    } else {
+                        adjacentCountry = mapIO.getMapGraph().getCountrySet().get(input[j].trim());
+                    }
+
+                    if (!adjacentCountry.getAdjacentCountries().contains(country)) {
+                        adjacentCountry.getAdjacentCountries().add(country);
+                    }
+
+                    countries.add(adjacentCountry);
+                }
+
+                country.setAdjacentCountries(countries);
+                mapIO.getMapGraph().addCountry(country);
+            }
+        }
+    }
+
+    private void handleRemoveCountry(Scanner scan) {
+]]></codefragment>
+   </duplication>
+   <duplication lines="35" tokens="305">
+      <file begintoken="21894"
+            column="67"
+            endcolumn="34"
+            endline="250"
+            endtoken="22198"
+            line="216"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\MapValidate.java"/>
+      <file begintoken="22287"
+            column="111"
+            endcolumn="34"
+            endline="290"
+            endtoken="22591"
+            line="257"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\MapValidate.java"/>
+      <codefragment><![CDATA[                                        country.setyValue(input[2]);
+                                        countrySet.put(input[0].trim(), country);
+                                    } else {
+                                        country = countrySet.get(input[0].trim());
+                                        country.setContinent(continentSetOfTerritories.get(input[3]).getName());
+                                        country.setxValue(input[1]);
+                                        country.setyValue(input[2]);
+                                    }
+                                    country.setPartOfContinent(continentSetOfTerritories.get(input[3]));
+                                    countries.add(country);
+                                    for (Continent continent : countriesInContinent.keySet()) {
+                                        if (continent.getListOfCountries().contains(country)) {
+                                            continent.getListOfCountries().remove(country);
+                                            countriesInContinent.get(continent).remove(country);
+                                        }
+                                    }
+                                    for (Continent continent : continentSetOfTerritories.values()) {
+                                        if (continent.getListOfCountries().contains(country)) {
+                                            continent.getListOfCountries().remove(country);
+                                        }
+                                    }
+
+                                    if (!continentSetOfTerritories.get(input[3]).getListOfCountries()
+                                            .contains(country)) {
+                                        continentSetOfTerritories.get(input[3]).getListOfCountries().add(country);
+                                    }
+                                    if (countriesInContinent.get(continentSetOfTerritories.get(input[3])) == null) {
+                                        countriesInContinent.put(continentSetOfTerritories.get(input[3]), countries);
+                                    } else {
+                                        if (!countriesInContinent.get(continentSetOfTerritories.get(input[3])).contains(country)) {
+                                            countriesInContinent.get(continentSetOfTerritories.get(input[3])).add(country);
+                                        }
+                                    }
+
+                                } else {
+]]></codefragment>
+   </duplication>
+   <duplication lines="33" tokens="222">
+      <file begintoken="15984"
+            column="37"
+            endcolumn="17"
+            endline="158"
+            endtoken="16205"
+            line="126"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\MapEditor.java"/>
+      <file begintoken="17556"
+            column="41"
+            endcolumn="17"
+            endline="414"
+            endtoken="17777"
+            line="382"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\MapEditor.java"/>
+      <codefragment><![CDATA[    private void handleAddContinents(Scanner scan) {
+        System.out.println("Please enter number of continents to be added.");
+        int count;
+        try {
+            count = Integer.parseInt(scan.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("\nPlease enter a valid number.");
+            return;
+        }
+
+        System.out.println("Please enter continent details in below format.");
+        System.out.println("Continent name=Control value");
+        Pattern pattern = Pattern.compile("[a-z, A-Z]+=[0-9]+");
+
+        for (int i = 0; i < count; ++i) {
+            String line = scan.nextLine();
+            Matcher match = pattern.matcher(line.trim());
+            if (!match.matches()) {
+                System.out.print("Invalid continent configuration");
+                --i;
+                continue;
+            }
+            if (mapIO.getMapGraph().getContinents().containsKey(line.split("=")[0])) {
+                System.out.println("Continent " + line.split("=")[0] + " is already defined.");
+                --i;
+                continue;
+            }
+            Continent continent = new Continent(line.split("=")[0], Integer.parseInt(line.split("=")[1]));
+            mapIO.getMapGraph().addContinent(continent);
+        }
+    }
+
+    private void handleRemoveContinent(Scanner scan) {
+]]></codefragment>
+   </duplication>
+   <duplication lines="26" tokens="189">
+      <file begintoken="17049"
+            column="34"
+            endcolumn="20"
+            endline="287"
+            endtoken="17237"
+            line="262"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\MapEditor.java"/>
+      <file begintoken="18621"
+            column="38"
+            endcolumn="20"
+            endline="543"
+            endtoken="18809"
+            line="518"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\MapEditor.java"/>
+      <codefragment><![CDATA[    private void handleRemoveEdge(Scanner scan) {
+        System.out.println("Enter the name of two countries to be disconnected, separated by newline.");
+        String country1 = scan.nextLine();
+        String country2 = scan.nextLine();
+
+        if (!mapIO.getMapGraph().getCountrySet().containsKey(country1)) {
+            System.out.println("Country " + country1 + " does not exist.");
+            return;
+        }
+        if (!mapIO.getMapGraph().getCountrySet().containsKey(country2)) {
+            System.out.println("Country " + country2 + " does not exist.");
+            return;
+        }
+        if (!mapIO.getMapGraph().checkAdjacency(
+                mapIO.getMapGraph().getCountrySet().get(country1),
+                mapIO.getMapGraph().getCountrySet().get(country2))) {
+            System.out.println("Both countries are already not adjacent.");
+            return;
+        }
+
+        mapIO.getMapGraph().deleteEdgeBetweenCountries(
+                mapIO.getMapGraph().getCountrySet().get(country1),
+                mapIO.getMapGraph().getCountrySet().get(country2));
+    }
+
+    private boolean handleSaveAndExit(Scanner scan) {
+]]></codefragment>
+   </duplication>
+   <duplication lines="26" tokens="188">
+      <file begintoken="16860"
+            column="31"
+            endcolumn="17"
+            endline="262"
+            endtoken="17047"
+            line="237"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\MapEditor.java"/>
+      <file begintoken="18432"
+            column="35"
+            endcolumn="17"
+            endline="518"
+            endtoken="18619"
+            line="493"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\MapEditor.java"/>
+      <codefragment><![CDATA[    private void handleAddEdge(Scanner scan) {
+        System.out.println("Enter the name of two countries to be connected, separated by newline.");
+        String country1 = scan.nextLine();
+        String country2 = scan.nextLine();
+
+        if (!mapIO.getMapGraph().getCountrySet().containsKey(country1)) {
+            System.out.println("Country " + country1 + " does not exist.");
+            return;
+        }
+        if (!mapIO.getMapGraph().getCountrySet().containsKey(country2)) {
+            System.out.println("Country " + country2 + " does not exist.");
+            return;
+        }
+        if (mapIO.getMapGraph().checkAdjacency(
+                mapIO.getMapGraph().getCountrySet().get(country1),
+                mapIO.getMapGraph().getCountrySet().get(country2))) {
+            System.out.println("Both countries are already adjacent.");
+            return;
+        }
+
+        mapIO.getMapGraph().addEdgeBetweenCountries(
+                mapIO.getMapGraph().getCountrySet().get(country1),
+                mapIO.getMapGraph().getCountrySet().get(country2));
+    }
+
+    private void handleRemoveEdge(Scanner scan) {
+]]></codefragment>
+   </duplication>
+   <duplication lines="20" tokens="111">
+      <file begintoken="5011"
+            column="38"
+            endcolumn="17"
+            endline="675"
+            endtoken="5121"
+            line="656"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\GamePlayController.java"/>
+      <file begintoken="5156"
+            column="63"
+            endcolumn="17"
+            endline="702"
+            endtoken="5266"
+            line="681"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\GamePlayController.java"/>
+      <codefragment><![CDATA[        calculateReinforcementArmies();
+        if (!(playerPlaying.getPlayerBehaviour() instanceof Human)) {
+            card.automateCardWindow(playerPlaying);
+            playerPlaying.reinforcementPhase(selectedCountryList.getItems(), null, gamePlayerList);
+            selectedCountryList.refresh();
+            System.out.println(playerPlaying.getName() + ":- " + playerPlaying.getArmyCount() + " armies left.");
+            loadMapData();
+            playerChosen.setText(playerPlaying.getName() + ":- " + playerPlaying.getArmyCount() + " armies left.");
+
+        } else {
+            WindowUtil.enableButtonControl(reinforcement);
+            reinforcement.requestFocus();
+            CardView.openCardWindow(playerPlaying, card);
+        }
+    }
+
+    /**
+     * Method to initialize reinforcement phase after each player's turn.
+     */
+    private void initializeReinforcementSave() {
+]]></codefragment>
+   </duplication>
+</pmd-cpd>

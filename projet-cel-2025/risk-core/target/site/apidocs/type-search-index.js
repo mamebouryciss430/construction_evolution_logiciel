@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"org.atlanmod.risk.core","l":"Card"},{"p":"org.atlanmod.risk.core","l":"Continent"},{"p":"org.atlanmod.risk.core","l":"Player"},{"p":"org.atlanmod.risk.core","l":"Territory"}];updateSearchResults();

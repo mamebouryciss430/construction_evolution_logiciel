@@ -1,0 +1,83 @@
+-------------------------------------------------------------------------------
+Test set: fr.unantes.software.construction.attributes.SimpleEventTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.255 s <<< FAILURE! -- in fr.unantes.software.construction.attributes.SimpleEventTest
+fr.unantes.software.construction.attributes.SimpleEventTest.testLocation -- Time elapsed: 0.031 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "Nantes"
+ but was: null
+	at fr.unantes.software.construction.attributes.SimpleEventTest.testLocation(SimpleEventTest.java:66)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+fr.unantes.software.construction.attributes.SimpleEventTest.testAlarm -- Time elapsed: 0.205 s <<< FAILURE!
+org.assertj.core.error.AssertJMultipleFailuresError: 
+
+Multiple Failures (3 failures)
+-- failure 1 --
+expected: Message
+ but was: null
+at SimpleEventTest.testAlarm(SimpleEventTest.java:79)
+-- failure 2 --
+expected: Audio
+ but was: null
+at SimpleEventTest.testAlarm(SimpleEventTest.java:80)
+-- failure 3 --
+expected: Email
+ but was: null
+at SimpleEventTest.testAlarm(SimpleEventTest.java:81)
+	at fr.unantes.software.construction.attributes.SimpleEventTest.testAlarm(SimpleEventTest.java:82)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+fr.unantes.software.construction.attributes.SimpleEventTest.removeAlarm -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: Email
+ but was: null
+	at fr.unantes.software.construction.attributes.SimpleEventTest.removeAlarm(SimpleEventTest.java:105)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+fr.unantes.software.construction.attributes.SimpleEventTest.getName -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "Lab"
+ but was: null
+	at fr.unantes.software.construction.attributes.SimpleEventTest.getName(SimpleEventTest.java:50)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+fr.unantes.software.construction.attributes.SimpleEventTest.getId -- Time elapsed: 0.001 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual not to be null
+	at fr.unantes.software.construction.attributes.SimpleEventTest.getId(SimpleEventTest.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+fr.unantes.software.construction.attributes.SimpleEventTest.setName -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "Other"
+ but was: null
+	at fr.unantes.software.construction.attributes.SimpleEventTest.setName(SimpleEventTest.java:58)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+fr.unantes.software.construction.attributes.SimpleEventTest.testConstructor -- Time elapsed: 0.001 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual not to be null
+	at fr.unantes.software.construction.attributes.SimpleEventTest.testConstructor(SimpleEventTest.java:36)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

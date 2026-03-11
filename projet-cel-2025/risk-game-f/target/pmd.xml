@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.14.0" timestamp="2025-12-19T18:13:45.066">
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-f\src\main\java\riskboardgame\Board.java">
+<violation beginline="12" endline="12" begincolumn="8" endcolumn="13" rule="GodClass" ruleset="Design" package="riskboardgame" class="Board" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=190, ATFD=116, TCC=12.653%)
+</violation>
+<violation beginline="12" endline="12" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="riskboardgame" class="Board" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'Board' has a total cyclomatic complexity of 190 (highest 70).
+</violation>
+<violation beginline="12" endline="888" begincolumn="50" endcolumn="2" rule="TooManyMethods" ruleset="Design" package="riskboardgame" class="Board" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="12" endline="888" begincolumn="50" endcolumn="2" rule="TooManyFields" ruleset="Design" package="riskboardgame" class="Board" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+<violation beginline="171" endline="171" begincolumn="21" endcolumn="22" rule="UnusedAssignment" ruleset="Best Practices" package="riskboardgame" class="Board" method="reinforce" variable="totalTroops" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'totalTroops' is never used (overwritten on line 189)
+</violation>
+<violation beginline="172" endline="172" begincolumn="27" endcolumn="28" rule="UnusedAssignment" ruleset="Best Practices" package="riskboardgame" class="Board" method="reinforce" variable="troopsByTerritory" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'troopsByTerritory' is never used (overwritten on line 179)
+</violation>
+<violation beginline="197" endline="197" begincolumn="13" endcolumn="14" rule="UnusedAssignment" ruleset="Best Practices" package="riskboardgame" class="Board" method="tradeInCard" variable="idx" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'idx' is never used (overwritten on line 226)
+</violation>
+<violation beginline="390" endline="390" begincolumn="16" endcolumn="22" rule="CyclomaticComplexity" ruleset="Design" package="riskboardgame" class="Board" method="attack" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'attack(int, String, String)' has a cyclomatic complexity of 10.
+</violation>
+<violation beginline="392" endline="392" begincolumn="20" endcolumn="22" rule="UnusedAssignment" ruleset="Best Practices" package="riskboardgame" class="Board" method="attack" variable="warInfo" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'warInfo' is never used (overwritten on line 449)
+</violation>
+<violation beginline="474" endline="474" begincolumn="16" endcolumn="37" rule="CyclomaticComplexity" ruleset="Design" package="riskboardgame" class="Board" method="showCountryValidation" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'showCountryValidation(String, String, int)' has a cyclomatic complexity of 10.
+</violation>
+<violation beginline="608" endline="608" begincolumn="16" endcolumn="29" rule="CyclomaticComplexity" ruleset="Design" package="riskboardgame" class="Board" method="checkCategory" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'checkCategory(String, long, String)' has a cyclomatic complexity of 70.
+</violation>
+<violation beginline="608" endline="608" begincolumn="16" endcolumn="29" rule="NPathComplexity" ruleset="Design" package="riskboardgame" class="Board" method="checkCategory" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#npathcomplexity" priority="3">
+The method 'checkCategory(String, long, String)' has an NPath complexity of 100, current threshold is 100
+</violation>
+<violation beginline="612" endline="612" begincolumn="20" endcolumn="22" rule="UnusedAssignment" ruleset="Best Practices" package="riskboardgame" class="Board" method="checkCategory" variable="tempStr" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'tempStr' is never used (overwritten on line 750)
+</violation>
+<violation beginline="823" endline="823" begincolumn="20" endcolumn="22" rule="UnusedAssignment" ruleset="Best Practices" package="riskboardgame" class="Board" method="onUpdateReceived" variable="answer" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'answer' is never used (overwritten on line 829)
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-f\src\main\java\riskboardgame\History.java">
+<violation beginline="6" endline="6" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="riskboardgame" class="History" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'History' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+</violation>
+<violation beginline="15" endline="15" begincolumn="16" endcolumn="113" rule="ExcessiveParameterList" ruleset="Design" package="riskboardgame" class="History" method="History" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-f\src\main\java\riskboardgame\Player.java">
+<violation beginline="6" endline="143" begincolumn="85" endcolumn="2" rule="TooManyFields" ruleset="Design" package="riskboardgame" class="Player" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+<violation beginline="7" endline="7" begincolumn="30" endcolumn="42" rule="UnusedPrivateField" ruleset="Best Practices" package="riskboardgame" class="Player" variable="warObservers" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'warObservers'.
+</violation>
+<violation beginline="22" endline="22" begincolumn="18" endcolumn="22" rule="UnusedPrivateField" ruleset="Best Practices" package="riskboardgame" class="Player" variable="dead" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'dead'.
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-f\src\main\java\riskboardgame\Setup.java">
+<violation beginline="17" endline="17" begincolumn="26" endcolumn="30" rule="UnusedAssignment" ruleset="Best Practices" package="riskboardgame" class="Setup" method="LoadDeck" variable="nameList" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'nameList' is never used (overwritten on line 31)
+</violation>
+<violation beginline="19" endline="19" begincolumn="17" endcolumn="21" rule="UnusedAssignment" ruleset="Best Practices" package="riskboardgame" class="Setup" method="LoadDeck" variable="line" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'line' is never used (overwritten on line 30)
+</violation>
+<violation beginline="59" endline="59" begincolumn="20" endcolumn="24" rule="UnusedAssignment" ruleset="Best Practices" package="riskboardgame" class="Setup" method="LoadMap" variable="line" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'line' is never used (overwritten on line 65)
+</violation>
+</file>
+</pmd>

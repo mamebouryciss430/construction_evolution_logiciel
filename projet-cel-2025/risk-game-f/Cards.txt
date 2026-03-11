@@ -1,0 +1,56 @@
+Alaska,solider
+Alberta,horse
+Central America,cannon
+Eastern United States,cannon
+Greenland,horse
+Northwest Territory,cannon
+Ontario,horse
+Quebec,cannon
+Western United States,cannon
+Argentina,solider
+Brazil,cannon
+Peru,solider
+Venezuela,solider
+Great Britain,cannon
+Iceland,solider
+Northern Europe,cannon
+Scandinavia,horse
+Southern Europe,cannon
+Ukraine,cannon
+Western Europe,cannon
+Congo,cannon
+East Africa,solider
+Egypt,solider
+Madagascar,horse
+North Africa,horse
+South Africa,cannon
+Afghanistan,horse
+China,solider
+India,horse
+Irkutsk,horse
+Japan,cannon
+Kamchatka,solider
+Middle East,solider
+Mongolia,solider
+Siam,cannon
+Siberia,horse
+Ural,horse
+Yakutsk,horse
+Eastern Australia,cannon
+Indonesia,cannon
+New Guinea,solider
+Western Australia,cannon
+Global,wild
+Global,wild
+Speical,Rule1
+Speical,Rule1
+Speical,Rule1
+Speical,Rule1
+Speical,Rule1
+Speical,Rule1
+Speical,Rule1
+Speical,Rule1
+Speical,Rule1
+Speical,Rule1
+Speical,Rule1
+Speical,Rule1

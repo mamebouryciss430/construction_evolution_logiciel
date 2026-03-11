@@ -1,0 +1,4 @@
+org\atlanmod\risk\core\Card.class
+org\atlanmod\risk\core\Player.class
+org\atlanmod\risk\core\Continent.class
+org\atlanmod\risk\core\Territory.class

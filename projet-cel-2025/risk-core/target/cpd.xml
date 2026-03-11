@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd xmlns="https://pmd-code.org/schema/cpd-report"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         pmdVersion="7.14.0"
+         timestamp="2025-12-19T18:19:24.9196047+01:00"
+         version="1.0.0"
+         xsi:schemaLocation="https://pmd-code.org/schema/cpd-report https://pmd.github.io/schema/cpd-report_1_0_0.xsd">
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-core\src\main\java\org\atlanmod\risk\core\Card.java"
+         totalNumberOfTokens="5"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-core\src\main\java\org\atlanmod\risk\core\Continent.java"
+         totalNumberOfTokens="5"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-core\src\main\java\org\atlanmod\risk\core\Player.java"
+         totalNumberOfTokens="16"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-core\src\main\java\org\atlanmod\risk\core\Territory.java"
+         totalNumberOfTokens="5"/>
+</pmd-cpd>

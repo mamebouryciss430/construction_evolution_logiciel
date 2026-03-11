@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-e\src\main\java\org\atlanmod\risk\RiskModel.java">
+<error line="1" severity="error" message="File length is 920 lines (max allowed is 300)." source="com.puppycrawl.tools.checkstyle.checks.sizes.FileLengthCheck"/>
+<error line="26" column="1" severity="error" message="Total number of methods is 22 (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodCountCheck"/>
+<error line="112" column="9" severity="error" message="Method initializeGame length is 107 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="244" column="9" severity="error" message="Method turnInCards length is 44 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="293" column="9" severity="error" message="Method reinforce length is 69 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="488" column="9" severity="error" message="Method fortify length is 61 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="553" column="9" severity="error" message="Method nextPlayer length is 107 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="664" column="9" severity="error" message="Method turnAI length is 189 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-e\src\main\java\org\atlanmod\risk\RiskView.java">
+<error line="1" severity="error" message="File length is 1,034 lines (max allowed is 300)." source="com.puppycrawl.tools.checkstyle.checks.sizes.FileLengthCheck"/>
+<error line="619" column="9" severity="error" message="Method actionPanel length is 143 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="763" column="9" severity="error" message="Method countryInfoPanel length is 165 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+</checkstyle>

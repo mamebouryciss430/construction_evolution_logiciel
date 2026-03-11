@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-b\src\main\java\Controller\RiskGameController.java">
+<error line="1" severity="error" message="File length is 543 lines (max allowed is 300)." source="com.puppycrawl.tools.checkstyle.checks.sizes.FileLengthCheck"/>
+<error line="49" column="1" severity="error" message="Total number of methods is 33 (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodCountCheck"/>
+<error line="139" column="9" severity="error" message="Method countrySelected length is 53 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-b\src\main\java\Model\Player.java">
+<error line="89" column="9" severity="error" message="Method exchangeCardsIfPossibleInner length is 80 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-b\src\main\java\Model\RiskGameModel.java">
+<error line="1" severity="error" message="File length is 584 lines (max allowed is 300)." source="com.puppycrawl.tools.checkstyle.checks.sizes.FileLengthCheck"/>
+<error line="18" column="1" severity="error" message="Total number of methods is 29 (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodCountCheck"/>
+<error line="142" column="9" severity="error" message="Method attackTerritoryWithResult length is 65 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-b\src\main\java\View\JFXCardView.java">
+<error line="69" column="9" severity="error" message="Method UpdateCurrentDeck length is 48 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-b\src\main\java\View\JFXMainView.java">
+<error line="1" severity="error" message="File length is 363 lines (max allowed is 300)." source="com.puppycrawl.tools.checkstyle.checks.sizes.FileLengthCheck"/>
+<error line="37" column="1" severity="error" message="Total number of methods is 21 (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodCountCheck"/>
+<error line="102" column="9" severity="error" message="Method initialize length is 55 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="265" column="9" severity="error" message="Method fit length is 68 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-b\src\main\java\View\World.java">
+<error line="1" severity="error" message="File length is 736 lines (max allowed is 300)." source="com.puppycrawl.tools.checkstyle.checks.sizes.FileLengthCheck"/>
+<error line="51" column="1" severity="error" message="Total number of methods is 27 (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodCountCheck"/>
+<error line="332" column="9" severity="error" message="Method initGraphics length is 76 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="482" column="9" severity="error" message="Method handleMouseEvent length is 92 lines (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+</checkstyle>

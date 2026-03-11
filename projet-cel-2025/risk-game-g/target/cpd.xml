@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd xmlns="https://pmd-code.org/schema/cpd-report"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         pmdVersion="7.14.0"
+         timestamp="2025-12-19T18:14:15.0106772+01:00"
+         version="1.0.0"
+         xsi:schemaLocation="https://pmd-code.org/schema/cpd-report https://pmd.github.io/schema/cpd-report_1_0_0.xsd">
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-g\src\main\java\Risk\AddPlayerUI.java"
+         totalNumberOfTokens="616"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-g\src\main\java\Risk\Card.java"
+         totalNumberOfTokens="35"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-g\src\main\java\Risk\Continent.java"
+         totalNumberOfTokens="197"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-g\src\main\java\Risk\MapPanel.java"
+         totalNumberOfTokens="2194"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-g\src\main\java\Risk\Player.java"
+         totalNumberOfTokens="226"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-g\src\main\java\Risk\PlayerPanel.java"
+         totalNumberOfTokens="490"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-g\src\main\java\Risk\RiskGame.java"
+         totalNumberOfTokens="2726"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-g\src\main\java\Risk\RiskUI.java"
+         totalNumberOfTokens="2914"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-g\src\main\java\Risk\StartGame.java"
+         totalNumberOfTokens="863"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-g\src\main\java\Risk\Territory.java"
+         totalNumberOfTokens="338"/>
+   <duplication lines="35" tokens="169">
+      <file begintoken="1591"
+            column="47"
+            endcolumn="33"
+            endline="197"
+            endtoken="1759"
+            line="163"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-g\src\main\java\Risk\MapPanel.java"/>
+      <file begintoken="1862"
+            column="48"
+            endcolumn="33"
+            endline="248"
+            endtoken="2030"
+            line="214"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-g\src\main\java\Risk\MapPanel.java"/>
+      <codefragment><![CDATA[               g.drawString("Occupy Territory", 360, 160);
+               g.drawString(Integer.toString(risk.defNum), 490, 305); //ARMIES
+
+               g.drawRect(600, 230, 50, 27); //max
+               g.drawRect(520, 230, 50, 27); //inc
+               g.drawRect(440, 230, 50, 27); //dec
+               g.drawRect(360, 230, 50, 27); //min
+
+
+
+               g.setFont(new Font("Arial", Font.BOLD,26));
+               g.drawString("MOVE", 465, 350);
+
+
+               g.setFont(h3);
+               g.setColor(Color.white);
+
+               g.drawRect(460, 325, 85, 30); //move box
+
+               g.drawString("MAX", 605, 250);
+               g.drawString("INC", 528, 250);
+               g.drawString("DEC", 445, 250);
+               g.drawString("MIN", 365, 250);
+           }//end capture
+
+
+/**************************************************************
+ *
+ *                      Fortify
+ *
+ *
+ ************************************************************/
+
+
+           if(state == RiskGame.FORTIFY_PHASE){
+]]></codefragment>
+   </duplication>
+</pmd-cpd>

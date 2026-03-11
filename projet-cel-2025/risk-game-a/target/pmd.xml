@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.14.0" timestamp="2025-12-19T18:25:02.651">
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\controller\CreateCountryController.java">
+<violation beginline="163" endline="163" begincolumn="32" endcolumn="34" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.controller" class="CreateCountryController" method="emptyContinentValidation" variable="continentName" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'continentName' is never used (overwritten on line 165)
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\controller\NewGameController.java">
+<violation beginline="45" endline="45" begincolumn="20" endcolumn="30" rule="UnusedPrivateField" ruleset="Best Practices" package="com.risk.controller" class="NewGameController" variable="PlayerName" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'PlayerName'.
+</violation>
+<violation beginline="48" endline="48" begincolumn="20" endcolumn="30" rule="UnusedPrivateField" ruleset="Best Practices" package="com.risk.controller" class="NewGameController" variable="PlayerType" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'PlayerType'.
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\controller\PlayerController.java">
+<violation beginline="28" endline="28" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="com.risk.controller" class="PlayerController" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'PlayerController' has a total cyclomatic complexity of 81 (highest 8).
+</violation>
+<violation beginline="28" endline="561" begincolumn="61" endcolumn="2" rule="TooManyMethods" ruleset="Design" package="com.risk.controller" class="PlayerController" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\controller\StartupController.java">
+<violation beginline="23" endline="295" begincolumn="62" endcolumn="2" rule="TooManyFields" ruleset="Design" package="com.risk.controller" class="StartupController" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+<violation beginline="130" endline="130" begincolumn="28" endcolumn="29" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.controller" class="StartupController" method="allocateArmies" variable="playerNumber" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'playerNumber' is never used (overwritten on line 133)
+</violation>
+<violation beginline="280" endline="280" begincolumn="17" endcolumn="23" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.controller" class="StartupController" method="checkForOverallArmies" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The updated value of variable 'numb' is never used
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\controller\TournmentDetailController.java">
+<violation beginline="67" endline="67" begincolumn="17" endcolumn="32" rule="CyclomaticComplexity" ruleset="Design" package="com.risk.controller" class="TournmentDetailController" method="actionPerformed" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'actionPerformed(ViewActionEvent)' has a cyclomatic complexity of 18.
+</violation>
+<violation beginline="118" endline="120" begincolumn="25" endcolumn="26" rule="AvoidDeeplyNestedIfStmts" ruleset="Design" package="com.risk.controller" class="TournmentDetailController" method="actionPerformed" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#avoiddeeplynestedifstmts" priority="3">
+Deeply nested if..then statements are hard to read
+</violation>
+<violation beginline="189" endline="189" begincolumn="18" endcolumn="34" rule="CyclomaticComplexity" ruleset="Design" package="com.risk.controller" class="TournmentDetailController" method="playerValidation" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'playerValidation()' has a cyclomatic complexity of 11.
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\CardModel.java">
+<violation beginline="9" endline="9" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.risk.model" class="CardModel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CardModel' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\CountryModel.java">
+<violation beginline="17" endline="17" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.risk.model" class="CountryModel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'CountryModel' is suspected to be a Data Class (WOC=5.556%, NOPA=0, NOAM=17, WMC=20)
+</violation>
+<violation beginline="57" endline="58" begincolumn="24" endcolumn="54" rule="ExcessiveParameterList" ruleset="Design" package="com.risk.model" class="CountryModel" method="CountryModel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\GameMapModel.java">
+<violation beginline="19" endline="19" begincolumn="8" endcolumn="13" rule="GodClass" ruleset="Design" package="com.risk.model" class="GameMapModel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=57, ATFD=24, TCC=10.507%)
+</violation>
+<violation beginline="341" endline="341" begincolumn="17" endcolumn="28" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.model" class="GameMapModel" method="checkForRemainArmies" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The updated value of variable 'loopvlaue' is never used
+</violation>
+<violation beginline="356" endline="356" begincolumn="30" endcolumn="31" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.model" class="GameMapModel" method="setMovingArmies" variable="previousArmies" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'previousArmies' is never used (overwritten on lines 359 and 364)
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\GamePlayModel.java">
+<violation beginline="20" endline="20" begincolumn="8" endcolumn="13" rule="GodClass" ruleset="Design" package="com.risk.model" class="GamePlayModel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=126, ATFD=128, TCC=6.885%)
+</violation>
+<violation beginline="20" endline="20" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="com.risk.model" class="GamePlayModel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'GamePlayModel' has a total cyclomatic complexity of 126 (highest 7).
+</violation>
+<violation beginline="20" endline="966" begincolumn="47" endcolumn="2" rule="TooManyMethods" ruleset="Design" package="com.risk.model" class="GamePlayModel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="20" endline="966" begincolumn="47" endcolumn="2" rule="TooManyFields" ruleset="Design" package="com.risk.model" class="GamePlayModel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+<violation beginline="369" endline="369" begincolumn="31" endcolumn="32" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.model" class="GamePlayModel" method="reinforcementArmies" variable="reinforceArmies" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'reinforceArmies' is never used (overwritten on lines 371 and 373)
+</violation>
+<violation beginline="886" endline="886" begincolumn="29" endcolumn="32" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.model" class="GamePlayModel" method="continentCovered" variable="percentage" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'percentage' is never used (overwritten on line 897)
+</violation>
+<violation beginline="902" endline="902" begincolumn="34" endcolumn="35" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.model" class="GamePlayModel" method="continentCovered" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The value assigned to variable 'percentage' is never used (overwritten on line 897)
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\PlayerModel.java">
+<violation beginline="59" endline="59" begincolumn="23" endcolumn="142" rule="ExcessiveParameterList" ruleset="Design" package="com.risk.model" class="PlayerModel" method="PlayerModel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#excessiveparameterlist" priority="3">
+Avoid long parameter lists.
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\strategy\AgressivePlayerStrategy.java">
+<violation beginline="51" endline="51" begincolumn="41" endcolumn="59" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.model.strategy" class="AgressivePlayerStrategy" method="reinforcement" variable="strongestCountry" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'strongestCountry' is never used (overwritten on line 60)
+</violation>
+<violation beginline="90" endline="90" begincolumn="17" endcolumn="18" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.model.strategy" class="AgressivePlayerStrategy" method="fortification" variable="i" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'i' is never used (overwritten on line 98)
+</violation>
+<violation beginline="91" endline="91" begincolumn="17" endcolumn="18" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.model.strategy" class="AgressivePlayerStrategy" method="fortification" variable="j" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'j' is never used (overwritten on line 100)
+</violation>
+<violation beginline="93" endline="93" begincolumn="46" endcolumn="75" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.model.strategy" class="AgressivePlayerStrategy" method="fortification" variable="linkedCountries" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'linkedCountries' is never used (overwritten on line 99)
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\utilities\ReadFile.java">
+<violation beginline="99" endline="103" begincolumn="25" endcolumn="26" rule="AvoidDeeplyNestedIfStmts" ruleset="Design" package="com.risk.utilities" class="ReadFile" method="getMapCountryDetails" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#avoiddeeplynestedifstmts" priority="3">
+Deeply nested if..then statements are hard to read
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\utilities\SaveGame.java">
+<violation beginline="22" endline="22" begincolumn="8" endcolumn="13" rule="GodClass" ruleset="Design" package="com.risk.utilities" class="SaveGame" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=92, ATFD=201, TCC=0.000%)
+</violation>
+<violation beginline="22" endline="22" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="com.risk.utilities" class="SaveGame" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'SaveGame' has a total cyclomatic complexity of 92 (highest 65).
+</violation>
+<violation beginline="193" endline="193" begincolumn="26" endcolumn="42" rule="CyclomaticComplexity" ruleset="Design" package="com.risk.utilities" class="SaveGame" method="readFROMJSONFile" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'readFROMJSONFile(File)' has a cyclomatic complexity of 65.
+</violation>
+<violation beginline="193" endline="193" begincolumn="26" endcolumn="42" rule="NPathComplexity" ruleset="Design" package="com.risk.utilities" class="SaveGame" method="readFROMJSONFile" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#npathcomplexity" priority="3">
+The method 'readFROMJSONFile(File)' has an NPath complexity of 2762478988714368, current threshold is 100
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\utilities\Validation.java">
+<violation beginline="24" endline="24" begincolumn="8" endcolumn="13" rule="GodClass" ruleset="Design" package="com.risk.utilities" class="Validation" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=52, ATFD=64, TCC=0.000%)
+</violation>
+<violation beginline="143" endline="143" begincolumn="20" endcolumn="45" rule="CyclomaticComplexity" ruleset="Design" package="com.risk.utilities" class="Validation" method="checkInterlinkedContinent" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'checkInterlinkedContinent(GameMapModel)' has a cyclomatic complexity of 11.
+</violation>
+<violation beginline="145" endline="145" begincolumn="28" endcolumn="30" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.utilities" class="Validation" method="checkInterlinkedContinent" variable="continent" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'continent' is never used (overwritten on line 154)
+</violation>
+<violation beginline="195" endline="195" begincolumn="32" endcolumn="35" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.utilities" class="Validation" method="emptyContinentValidation" variable="continentName" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'continentName' is never used (overwritten on line 199)
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\utilities\WriteMap.java">
+<violation beginline="58" endline="58" begincolumn="30" endcolumn="34" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.utilities" class="WriteMap" method="writeMapToFile" variable="content" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'content' is never used (overwritten on line 71)
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\PlayConsoleView.java">
+<violation beginline="20" endline="82" begincolumn="45" endcolumn="2" rule="TooManyFields" ruleset="Design" package="com.risk.view" class="PlayConsoleView" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+<violation beginline="50" endline="50" begincolumn="33" endcolumn="54" rule="UnusedPrivateField" ruleset="Best Practices" package="com.risk.view" class="PlayConsoleView" variable="countriesViewRenderer" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'countriesViewRenderer'.
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\events\ViewListSelectionEvent.java">
+<violation beginline="9" endline="9" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="com.risk.view.events" class="ViewListSelectionEvent" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'ViewListSelectionEvent' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingAttackView.java">
+<violation beginline="46" endline="46" begincolumn="8" endcolumn="13" rule="GodClass" ruleset="Design" package="com.risk.view.impl.swing" class="SwingAttackView" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=58, ATFD=136, TCC=30.769%)
+</violation>
+<violation beginline="46" endline="584" begincolumn="93" endcolumn="2" rule="TooManyFields" ruleset="Design" package="com.risk.view.impl.swing" class="SwingAttackView" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+<violation beginline="82" endline="82" begincolumn="20" endcolumn="35" rule="UnusedPrivateField" ruleset="Best Practices" package="com.risk.view.impl.swing" class="SwingAttackView" variable="noOfTroopsLabel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'noOfTroopsLabel'.
+</violation>
+<violation beginline="202" endline="202" begincolumn="17" endcolumn="29" rule="CyclomaticComplexity" ruleset="Design" package="com.risk.view.impl.swing" class="SwingAttackView" method="updateWindow" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'updateWindow(GamePlayModel, PlayerModel)' has a cyclomatic complexity of 31.
+</violation>
+<violation beginline="202" endline="202" begincolumn="17" endcolumn="29" rule="NPathComplexity" ruleset="Design" package="com.risk.view.impl.swing" class="SwingAttackView" method="updateWindow" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#npathcomplexity" priority="3">
+The method 'updateWindow(GamePlayModel, PlayerModel)' has an NPath complexity of 1769472, current threshold is 100
+</violation>
+<violation beginline="283" endline="283" begincolumn="57" endcolumn="86" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.view.impl.swing" class="SwingAttackView" method="updateWindow" variable="defendListOfCountries" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'defendListOfCountries' is never used (overwritten on line 284)
+</violation>
+<violation beginline="374" endline="374" begincolumn="26" endcolumn="43" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.view.impl.swing" class="SwingAttackView" method="updateWindow" variable="pm" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'pm' is never used (overwritten on line 384)
+</violation>
+<violation beginline="375" endline="375" begincolumn="27" endcolumn="45" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.view.impl.swing" class="SwingAttackView" method="updateWindow" variable="cm" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'cm' is never used (overwritten on line 383)
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingConnectCountryView.java">
+<violation beginline="35" endline="348" begincolumn="95" endcolumn="2" rule="TooManyFields" ruleset="Design" package="com.risk.view.impl.swing" class="SwingConnectCountryView" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingCreateContinentView.java">
+<violation beginline="29" endline="162" begincolumn="97" endcolumn="2" rule="TooManyFields" ruleset="Design" package="com.risk.view.impl.swing" class="SwingCreateContinentView" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+<violation beginline="40" endline="40" begincolumn="23" endcolumn="35" rule="UnusedPrivateField" ruleset="Best Practices" package="com.risk.view.impl.swing" class="SwingCreateContinentView" variable="observerList" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'observerList'.
+</violation>
+<violation beginline="43" endline="43" begincolumn="23" endcolumn="38" rule="UnusedPrivateField" ruleset="Best Practices" package="com.risk.view.impl.swing" class="SwingCreateContinentView" variable="consoleTextArea" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'consoleTextArea'.
+</violation>
+<violation beginline="44" endline="44" begincolumn="23" endcolumn="39" rule="UnusedPrivateField" ruleset="Best Practices" package="com.risk.view.impl.swing" class="SwingCreateContinentView" variable="consoleMainPanel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'consoleMainPanel'.
+</violation>
+<violation beginline="45" endline="45" begincolumn="25" endcolumn="37" rule="UnusedPrivateField" ruleset="Best Practices" package="com.risk.view.impl.swing" class="SwingCreateContinentView" variable="consolePanel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'consolePanel'.
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingCreateCountryView.java">
+<violation beginline="36" endline="233" begincolumn="93" endcolumn="2" rule="TooManyFields" ruleset="Design" package="com.risk.view.impl.swing" class="SwingCreateCountryView" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+<violation beginline="60" endline="60" begincolumn="23" endcolumn="35" rule="UnusedPrivateField" ruleset="Best Practices" package="com.risk.view.impl.swing" class="SwingCreateCountryView" variable="observerList" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'observerList'.
+</violation>
+<violation beginline="69" endline="69" begincolumn="21" endcolumn="31" rule="UnusedPrivateField" ruleset="Best Practices" package="com.risk.view.impl.swing" class="SwingCreateCountryView" variable="saveButton" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'saveButton'.
+</violation>
+<violation beginline="72" endline="72" begincolumn="23" endcolumn="38" rule="UnusedPrivateField" ruleset="Best Practices" package="com.risk.view.impl.swing" class="SwingCreateCountryView" variable="consoleTextArea" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'consoleTextArea'.
+</violation>
+<violation beginline="75" endline="75" begincolumn="23" endcolumn="39" rule="UnusedPrivateField" ruleset="Best Practices" package="com.risk.view.impl.swing" class="SwingCreateCountryView" variable="consoleMainPanel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'consoleMainPanel'.
+</violation>
+<violation beginline="78" endline="78" begincolumn="25" endcolumn="37" rule="UnusedPrivateField" ruleset="Best Practices" package="com.risk.view.impl.swing" class="SwingCreateCountryView" variable="consolePanel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'consolePanel'.
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingFortificationView.java">
+<violation beginline="42" endline="381" begincolumn="93" endcolumn="2" rule="TooManyFields" ruleset="Design" package="com.risk.view.impl.swing" class="SwingFortificationView" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+<violation beginline="135" endline="135" begincolumn="17" endcolumn="29" rule="CyclomaticComplexity" ruleset="Design" package="com.risk.view.impl.swing" class="SwingFortificationView" method="updateWindow" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'updateWindow(GamePlayModel, PlayerModel)' has a cyclomatic complexity of 14.
+</violation>
+<violation beginline="135" endline="135" begincolumn="17" endcolumn="29" rule="NPathComplexity" ruleset="Design" package="com.risk.view.impl.swing" class="SwingFortificationView" method="updateWindow" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#npathcomplexity" priority="3">
+The method 'updateWindow(GamePlayModel, PlayerModel)' has an NPath complexity of 784, current threshold is 100
+</violation>
+<violation beginline="239" endline="239" begincolumn="26" endcolumn="43" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.view.impl.swing" class="SwingFortificationView" method="updateWindow" variable="pm" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'pm' is never used (overwritten on line 249)
+</violation>
+<violation beginline="240" endline="240" begincolumn="27" endcolumn="45" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.view.impl.swing" class="SwingFortificationView" method="updateWindow" variable="cm" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'cm' is never used (overwritten on line 248)
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingReinforcementView.java">
+<violation beginline="45" endline="374" begincolumn="93" endcolumn="2" rule="TooManyFields" ruleset="Design" package="com.risk.view.impl.swing" class="SwingReinforcementView" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+<violation beginline="66" endline="66" begincolumn="20" endcolumn="40" rule="UnusedPrivateField" ruleset="Best Practices" package="com.risk.view.impl.swing" class="SwingReinforcementView" variable="listOfCountriesLabel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'listOfCountriesLabel'.
+</violation>
+<violation beginline="78" endline="78" begincolumn="31" endcolumn="41" rule="UnusedPrivateField" ruleset="Best Practices" package="com.risk.view.impl.swing" class="SwingReinforcementView" variable="percentage" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'percentage'.
+</violation>
+<violation beginline="79" endline="79" begincolumn="30" endcolumn="36" rule="UnusedPrivateField" ruleset="Best Practices" package="com.risk.view.impl.swing" class="SwingReinforcementView" variable="colors" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'colors'.
+</violation>
+<violation beginline="148" endline="148" begincolumn="17" endcolumn="29" rule="CyclomaticComplexity" ruleset="Design" package="com.risk.view.impl.swing" class="SwingReinforcementView" method="updateWindow" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'updateWindow(GamePlayModel, PlayerModel)' has a cyclomatic complexity of 13.
+</violation>
+<violation beginline="148" endline="148" begincolumn="17" endcolumn="29" rule="NPathComplexity" ruleset="Design" package="com.risk.view.impl.swing" class="SwingReinforcementView" method="updateWindow" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#npathcomplexity" priority="3">
+The method 'updateWindow(GamePlayModel, PlayerModel)' has an NPath complexity of 600, current threshold is 100
+</violation>
+<violation beginline="226" endline="226" begincolumn="26" endcolumn="43" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.view.impl.swing" class="SwingReinforcementView" method="updateWindow" variable="pm" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'pm' is never used (overwritten on line 236)
+</violation>
+<violation beginline="227" endline="227" begincolumn="27" endcolumn="45" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.view.impl.swing" class="SwingReinforcementView" method="updateWindow" variable="cm" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'cm' is never used (overwritten on line 235)
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingStartUpView.java">
+<violation beginline="43" endline="347" begincolumn="81" endcolumn="2" rule="TooManyFields" ruleset="Design" package="com.risk.view.impl.swing" class="SwingStartUpView" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+</file>
+</pmd>

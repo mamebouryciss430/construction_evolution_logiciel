@@ -1,0 +1,97 @@
+package com.risk.view;
+
+import com.risk.model.Model;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.scene.chart.PieChart;
+import javafx.scene.control.ListView;
+import com.risk.model.PlayersWorldDomination;
+import javafx.scene.layout.AnchorPane;
+
+import java.util.ArrayList;
+import java.util.Observable;
+import java.util.Observer;
+
+
+/**
+ * Observer PlayerWorldDominationView class, display
+ * 1) the percentage of the map controlled by every player
+ * 2) the continents controlled by every player
+ * 3) the total number of armies owned by every player
+ */
+public class PlayersWorldDominationView implements Observer {
+
+    private static PlayersWorldDominationView instance;
+
+    private AnchorPane countryPercentagePane;
+    private ObservableList<String> allPlayerCountryPercentage = FXCollections.observableArrayList();
+    private ObservableList<String> allPlayerArmyDistribution = FXCollections.observableArrayList();
+    private ObservableList<String> allPlayerContinentName = FXCollections.observableArrayList();
+    private Model model;
+    private PieChart countryChart;
+    private ArrayList<String> pieChartColor;
+
+
+    /**
+     * Ctor
+     */
+    private PlayersWorldDominationView() {}
+
+
+    /**
+     * Singleton standard getter method, get the instance
+     * @return the instance
+     */
+    public static PlayersWorldDominationView getInstance() {
+        if (null == instance) instance = new PlayersWorldDominationView();
+        return instance;
+    }
+
+    public void setModel(Model model) {
+        this.model = model;
+    }
+
+    /**
+     * Initialize the map component
+     * @param countryChart pie chart
+     * @param model model
+     * @param countryPercentagePane pane
+     * @param countryPercentageListView is the map component for displaying the country percentage
+     * @param armyDistributionListView is the map component for displaying the army distribution
+     * @param continentNameListView is the map component for displaying the continent name
+     */
+    public void init(AnchorPane countryPercentagePane, ListView<String> countryPercentageListView, ListView<String> armyDistributionListView, ListView<String> continentNameListView, Model model, PieChart countryChart) {
+        this.countryPercentagePane = countryPercentagePane;
+        countryPercentageListView.setItems(allPlayerCountryPercentage);
+        armyDistributionListView.setItems(allPlayerArmyDistribution);
+        continentNameListView.setItems(allPlayerContinentName);
+        this.model = model;
+        this.countryChart = countryChart;
+        this.pieChartColor = new ArrayList<>();
+    }
+
+
+
+
+    /**
+     * Standard Observer update method
+     * @param obs is the Observable subject, which is the PlayersWorldDomination
+     * @param obj is the additional update info
+     */
+    @Override
+    public void update(Observable obs, Object obj) {
+
+        // update country percentage
+        allPlayerCountryPercentage.clear();
+        allPlayerCountryPercentage.addAll(PlayersWorldDomination.getInstance().getCountryPercentage());
+
+
+        // update army distribution
+        allPlayerArmyDistribution.clear();
+        allPlayerArmyDistribution.addAll(PlayersWorldDomination.getInstance().getArmyDistribution());
+
+        // update continent name
+        allPlayerContinentName.clear();
+        allPlayerContinentName.addAll(PlayersWorldDomination.getInstance().getContinentNames());
+    }
+}

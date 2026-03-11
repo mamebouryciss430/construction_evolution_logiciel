@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.14.0" timestamp="2025-12-19T18:41:35.768">
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\DiceController.java">
+<violation beginline="27" endline="614" begincolumn="73" endcolumn="2" rule="TooManyFields" ruleset="Design" package="com.risk.controller" class="DiceController" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+<violation beginline="494" endline="494" begincolumn="17" endcolumn="26" rule="CyclomaticComplexity" ruleset="Design" package="com.risk.controller" class="DiceController" method="startRoll" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'startRoll(ActionEvent)' has a cyclomatic complexity of 15.
+</violation>
+<violation beginline="494" endline="494" begincolumn="17" endcolumn="26" rule="NPathComplexity" ruleset="Design" package="com.risk.controller" class="DiceController" method="startRoll" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#npathcomplexity" priority="3">
+The method 'startRoll(ActionEvent)' has an NPath complexity of 1012, current threshold is 100
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\GamePlayController.java">
+<violation beginline="41" endline="41" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="com.risk.controller" class="GamePlayController" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'GamePlayController' has a total cyclomatic complexity of 123 (highest 12).
+</violation>
+<violation beginline="41" endline="1206" begincolumn="84" endcolumn="2" rule="TooManyMethods" ruleset="Design" package="com.risk.controller" class="GamePlayController" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="41" endline="1206" begincolumn="84" endcolumn="2" rule="TooManyFields" ruleset="Design" package="com.risk.controller" class="GamePlayController" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+<violation beginline="55" endline="55" begincolumn="24" endcolumn="34" rule="UnusedPrivateField" ruleset="Best Practices" package="com.risk.controller" class="GamePlayController" variable="roundRobin" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'roundRobin'.
+</violation>
+<violation beginline="458" endline="458" begincolumn="18" endcolumn="32" rule="UnusedPrivateMethod" ruleset="Best Practices" package="com.risk.controller" class="GamePlayController" method="completeAttack" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'completeAttack(ActionEvent)'.
+</violation>
+<violation beginline="458" endline="458" begincolumn="45" endcolumn="50" rule="UnusedFormalParameter" ruleset="Best Practices" package="com.risk.controller" class="GamePlayController" method="completeAttack" variable="event" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'event'.
+</violation>
+<violation beginline="498" endline="498" begincolumn="18" endcolumn="25" rule="UnusedPrivateMethod" ruleset="Best Practices" package="com.risk.controller" class="GamePlayController" method="fortify" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'fortify(ActionEvent)'.
+</violation>
+<violation beginline="498" endline="498" begincolumn="38" endcolumn="43" rule="UnusedFormalParameter" ruleset="Best Practices" package="com.risk.controller" class="GamePlayController" method="fortify" variable="event" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'event'.
+</violation>
+<violation beginline="511" endline="511" begincolumn="18" endcolumn="25" rule="UnusedPrivateMethod" ruleset="Best Practices" package="com.risk.controller" class="GamePlayController" method="endTurn" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'endTurn(ActionEvent)'.
+</violation>
+<violation beginline="511" endline="511" begincolumn="38" endcolumn="43" rule="UnusedFormalParameter" ruleset="Best Practices" package="com.risk.controller" class="GamePlayController" method="endTurn" variable="event" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'event'.
+</violation>
+<violation beginline="529" endline="529" begincolumn="40" endcolumn="45" rule="UnusedFormalParameter" ruleset="Best Practices" package="com.risk.controller" class="GamePlayController" method="placeArmy" variable="event" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'event'.
+</violation>
+<violation beginline="539" endline="539" begincolumn="18" endcolumn="31" rule="UnusedPrivateMethod" ruleset="Best Practices" package="com.risk.controller" class="GamePlayController" method="reinforcement" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'reinforcement(ActionEvent)'.
+</violation>
+<violation beginline="539" endline="539" begincolumn="44" endcolumn="49" rule="UnusedFormalParameter" ruleset="Best Practices" package="com.risk.controller" class="GamePlayController" method="reinforcement" variable="event" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'event'.
+</violation>
+<violation beginline="941" endline="941" begincolumn="17" endcolumn="23" rule="CyclomaticComplexity" ruleset="Design" package="com.risk.controller" class="GamePlayController" method="update" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'update(Observable, Object)' has a cyclomatic complexity of 12.
+</violation>
+<violation beginline="1013" endline="1013" begincolumn="18" endcolumn="26" rule="UnusedPrivateMethod" ruleset="Best Practices" package="com.risk.controller" class="GamePlayController" method="saveGame" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'saveGame(ActionEvent)'.
+</violation>
+<violation beginline="1013" endline="1013" begincolumn="39" endcolumn="44" rule="UnusedFormalParameter" ruleset="Best Practices" package="com.risk.controller" class="GamePlayController" method="saveGame" variable="event" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'event'.
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\TournamentController.java">
+<violation beginline="26" endline="495" begincolumn="79" endcolumn="2" rule="TooManyFields" ruleset="Design" package="com.risk.controller" class="TournamentController" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+<violation beginline="239" endline="239" begincolumn="18" endcolumn="26" rule="UnusedPrivateMethod" ruleset="Best Practices" package="com.risk.controller" class="TournamentController" method="register" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'register(ActionEvent)'.
+</violation>
+<violation beginline="239" endline="239" begincolumn="18" endcolumn="26" rule="CyclomaticComplexity" ruleset="Design" package="com.risk.controller" class="TournamentController" method="register" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'register(ActionEvent)' has a cyclomatic complexity of 14.
+</violation>
+<violation beginline="239" endline="239" begincolumn="39" endcolumn="44" rule="UnusedFormalParameter" ruleset="Best Practices" package="com.risk.controller" class="TournamentController" method="register" variable="event" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'event'.
+</violation>
+<violation beginline="302" endline="302" begincolumn="17" endcolumn="27" rule="CyclomaticComplexity" ruleset="Design" package="com.risk.controller" class="TournamentController" method="showPlayer" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'showPlayer(ActionEvent)' has a cyclomatic complexity of 11.
+</violation>
+<violation beginline="348" endline="348" begincolumn="18" endcolumn="22" rule="UnusedPrivateMethod" ruleset="Best Practices" package="com.risk.controller" class="TournamentController" method="map1" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'map1(ActionEvent)'.
+</violation>
+<violation beginline="348" endline="348" begincolumn="35" endcolumn="40" rule="UnusedFormalParameter" ruleset="Best Practices" package="com.risk.controller" class="TournamentController" method="map1" variable="event" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'event'.
+</violation>
+<violation beginline="365" endline="365" begincolumn="18" endcolumn="22" rule="UnusedPrivateMethod" ruleset="Best Practices" package="com.risk.controller" class="TournamentController" method="map2" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'map2(ActionEvent)'.
+</violation>
+<violation beginline="365" endline="365" begincolumn="35" endcolumn="40" rule="UnusedFormalParameter" ruleset="Best Practices" package="com.risk.controller" class="TournamentController" method="map2" variable="event" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'event'.
+</violation>
+<violation beginline="382" endline="382" begincolumn="18" endcolumn="22" rule="UnusedPrivateMethod" ruleset="Best Practices" package="com.risk.controller" class="TournamentController" method="map3" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'map3(ActionEvent)'.
+</violation>
+<violation beginline="382" endline="382" begincolumn="35" endcolumn="40" rule="UnusedFormalParameter" ruleset="Best Practices" package="com.risk.controller" class="TournamentController" method="map3" variable="event" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'event'.
+</violation>
+<violation beginline="399" endline="399" begincolumn="18" endcolumn="22" rule="UnusedPrivateMethod" ruleset="Best Practices" package="com.risk.controller" class="TournamentController" method="map4" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'map4(ActionEvent)'.
+</violation>
+<violation beginline="399" endline="399" begincolumn="35" endcolumn="40" rule="UnusedFormalParameter" ruleset="Best Practices" package="com.risk.controller" class="TournamentController" method="map4" variable="event" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'event'.
+</violation>
+<violation beginline="416" endline="416" begincolumn="18" endcolumn="22" rule="UnusedPrivateMethod" ruleset="Best Practices" package="com.risk.controller" class="TournamentController" method="map5" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'map5(ActionEvent)'.
+</violation>
+<violation beginline="416" endline="416" begincolumn="35" endcolumn="40" rule="UnusedFormalParameter" ruleset="Best Practices" package="com.risk.controller" class="TournamentController" method="map5" variable="event" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'event'.
+</violation>
+<violation beginline="445" endline="445" begincolumn="17" endcolumn="22" rule="CyclomaticComplexity" ruleset="Design" package="com.risk.controller" class="TournamentController" method="start" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'start(ActionEvent)' has a cyclomatic complexity of 10.
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\MapEditor.java">
+<violation beginline="23" endline="23" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="com.risk.services" class="MapEditor" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'MapEditor' has a total cyclomatic complexity of 101 (highest 11).
+</violation>
+<violation beginline="23" endline="668" begincolumn="48" endcolumn="2" rule="TooManyMethods" ruleset="Design" package="com.risk.services" class="MapEditor" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="62" endline="62" begincolumn="17" endcolumn="29" rule="CyclomaticComplexity" ruleset="Design" package="com.risk.services" class="MapEditor" method="createNewMap" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'createNewMap()' has a cyclomatic complexity of 11.
+</violation>
+<violation beginline="317" endline="317" begincolumn="17" endcolumn="32" rule="CyclomaticComplexity" ruleset="Design" package="com.risk.services" class="MapEditor" method="editExistingMap" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'editExistingMap()' has a cyclomatic complexity of 10.
+</violation>
+<violation beginline="325" endline="325" begincolumn="16" endcolumn="17" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.services" class="MapEditor" method="editExistingMap" variable="select" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'select' is never used (overwritten on line 327)
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\services\MapValidate.java">
+<violation beginline="25" endline="25" begincolumn="8" endcolumn="13" rule="GodClass" ruleset="Design" package="com.risk.services" class="MapValidate" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=80, ATFD=54, TCC=14.103%)
+</violation>
+<violation beginline="25" endline="25" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="com.risk.services" class="MapValidate" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'MapValidate' has a total cyclomatic complexity of 80 (highest 58).
+</violation>
+<violation beginline="155" endline="155" begincolumn="20" endcolumn="35" rule="CyclomaticComplexity" ruleset="Design" package="com.risk.services" class="MapValidate" method="validateMapFile" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'validateMapFile(String)' has a cyclomatic complexity of 58.
+</violation>
+<violation beginline="155" endline="155" begincolumn="20" endcolumn="35" rule="NPathComplexity" ruleset="Design" package="com.risk.services" class="MapValidate" method="validateMapFile" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#npathcomplexity" priority="3">
+The method 'validateMapFile(String)' has an NPath complexity of 54434150, current threshold is 100
+</violation>
+<violation beginline="169" endline="172" begincolumn="29" endcolumn="30" rule="AvoidDeeplyNestedIfStmts" ruleset="Design" package="com.risk.services" class="MapValidate" method="validateMapFile" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#avoiddeeplynestedifstmts" priority="3">
+Deeply nested if..then statements are hard to read
+</violation>
+<violation beginline="179" endline="196" begincolumn="29" endcolumn="30" rule="AvoidDeeplyNestedIfStmts" ruleset="Design" package="com.risk.services" class="MapValidate" method="validateMapFile" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#avoiddeeplynestedifstmts" priority="3">
+Deeply nested if..then statements are hard to read
+</violation>
+<violation beginline="209" endline="209" begincolumn="51" endcolumn="55" rule="UnusedAssignment" ruleset="Best Practices" package="com.risk.services" class="MapValidate" method="validateMapFile" variable="country" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The initializer for variable 'country' is never used (overwritten on lines 213, 219, 254 and 260)
+</violation>
+<violation beginline="212" endline="223" begincolumn="37" endcolumn="38" rule="AvoidDeeplyNestedIfStmts" ruleset="Design" package="com.risk.services" class="MapValidate" method="validateMapFile" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#avoiddeeplynestedifstmts" priority="3">
+Deeply nested if..then statements are hard to read
+</violation>
+<violation beginline="227" endline="230" begincolumn="41" endcolumn="42" rule="AvoidDeeplyNestedIfStmts" ruleset="Design" package="com.risk.services" class="MapValidate" method="validateMapFile" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#avoiddeeplynestedifstmts" priority="3">
+Deeply nested if..then statements are hard to read
+</violation>
+<violation beginline="233" endline="235" begincolumn="41" endcolumn="42" rule="AvoidDeeplyNestedIfStmts" ruleset="Design" package="com.risk.services" class="MapValidate" method="validateMapFile" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#avoiddeeplynestedifstmts" priority="3">
+Deeply nested if..then statements are hard to read
+</violation>
+<violation beginline="238" endline="241" begincolumn="37" endcolumn="38" rule="AvoidDeeplyNestedIfStmts" ruleset="Design" package="com.risk.services" class="MapValidate" method="validateMapFile" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#avoiddeeplynestedifstmts" priority="3">
+Deeply nested if..then statements are hard to read
+</violation>
+<violation beginline="245" endline="247" begincolumn="41" endcolumn="42" rule="AvoidDeeplyNestedIfStmts" ruleset="Design" package="com.risk.services" class="MapValidate" method="validateMapFile" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#avoiddeeplynestedifstmts" priority="3">
+Deeply nested if..then statements are hard to read
+</violation>
+</file>
+<suppressedviolation filename="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\CardController.java" suppressiontype="@suppresswarnings" msg="Avoid unused private methods such as 'checkExchange(ActionEvent)'." usermsg=""></suppressedviolation>
+<suppressedviolation filename="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\CardController.java" suppressiontype="@suppresswarnings" msg="Avoid unused method parameters such as 'event'." usermsg=""></suppressedviolation>
+<suppressedviolation filename="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\PlayerDetailsController.java" suppressiontype="@suppresswarnings" msg="Avoid unused private methods such as 'startPlay(ActionEvent)'." usermsg=""></suppressedviolation>
+<suppressedviolation filename="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\PlayerDetailsController.java" suppressiontype="@suppresswarnings" msg="Avoid unused method parameters such as 'event'." usermsg=""></suppressedviolation>
+<suppressedviolation filename="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\DiceController.java" suppressiontype="@suppresswarnings" msg="Avoid unused private methods such as 'cancelMove()'." usermsg=""></suppressedviolation>
+<suppressedviolation filename="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\DiceController.java" suppressiontype="@suppresswarnings" msg="Avoid unused private methods such as 'moveAllArmies()'." usermsg=""></suppressedviolation>
+<suppressedviolation filename="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\DiceController.java" suppressiontype="@suppresswarnings" msg="Avoid unused private methods such as 'cancelThrow()'." usermsg=""></suppressedviolation>
+<suppressedviolation filename="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\DiceController.java" suppressiontype="@suppresswarnings" msg="Avoid unused private methods such as 'allOut()'." usermsg=""></suppressedviolation>
+<suppressedviolation filename="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\DiceController.java" suppressiontype="@suppresswarnings" msg="Avoid unused private methods such as 'moveArmies(ActionEvent)'." usermsg=""></suppressedviolation>
+<suppressedviolation filename="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\DiceController.java" suppressiontype="@suppresswarnings" msg="Avoid unused method parameters such as 'event'." usermsg=""></suppressedviolation>
+<suppressedviolation filename="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-d\src\main\java\com\risk\controller\DiceController.java" suppressiontype="@suppresswarnings" msg="Avoid unused method parameters such as 'event'." usermsg=""></suppressedviolation>
+</pmd>

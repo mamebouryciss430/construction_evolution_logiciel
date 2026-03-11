@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.14.0" timestamp="2025-12-19T18:44:07.848">
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-e\src\main\java\org\atlanmod\risk\MenuController.java">
+<violation beginline="22" endline="22" begincolumn="28" endcolumn="40" rule="UnusedPrivateField" ruleset="Best Practices" package="org.atlanmod.risk" class="MenuController" variable="objectReader" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'objectReader'.
+</violation>
+<violation beginline="23" endline="23" begincolumn="25" endcolumn="31" rule="UnusedPrivateField" ruleset="Best Practices" package="org.atlanmod.risk" class="MenuController" variable="reader" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'reader'.
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-e\src\main\java\org\atlanmod\risk\RiskModel.java">
+<violation beginline="26" endline="26" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="org.atlanmod.risk" class="RiskModel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'RiskModel' has a total cyclomatic complexity of 162 (highest 44).
+</violation>
+<violation beginline="26" endline="920" begincolumn="24" endcolumn="2" rule="TooManyFields" ruleset="Design" package="org.atlanmod.risk" class="RiskModel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+<violation beginline="244" endline="244" begincolumn="17" endcolumn="28" rule="CyclomaticComplexity" ruleset="Design" package="org.atlanmod.risk" class="RiskModel" method="turnInCards" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'turnInCards(int[])' has a cyclomatic complexity of 13.
+</violation>
+<violation beginline="244" endline="244" begincolumn="17" endcolumn="28" rule="NPathComplexity" ruleset="Design" package="org.atlanmod.risk" class="RiskModel" method="turnInCards" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#npathcomplexity" priority="3">
+The method 'turnInCards(int[])' has an NPath complexity of 143, current threshold is 100
+</violation>
+<violation beginline="293" endline="293" begincolumn="17" endcolumn="26" rule="CyclomaticComplexity" ruleset="Design" package="org.atlanmod.risk" class="RiskModel" method="reinforce" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'reinforce(String)' has a cyclomatic complexity of 17.
+</violation>
+<violation beginline="293" endline="293" begincolumn="17" endcolumn="26" rule="NPathComplexity" ruleset="Design" package="org.atlanmod.risk" class="RiskModel" method="reinforce" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#npathcomplexity" priority="3">
+The method 'reinforce(String)' has an NPath complexity of 191, current threshold is 100
+</violation>
+<violation beginline="488" endline="488" begincolumn="17" endcolumn="24" rule="CyclomaticComplexity" ruleset="Design" package="org.atlanmod.risk" class="RiskModel" method="fortify" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'fortify(String, String)' has a cyclomatic complexity of 14.
+</violation>
+<violation beginline="553" endline="553" begincolumn="17" endcolumn="27" rule="CyclomaticComplexity" ruleset="Design" package="org.atlanmod.risk" class="RiskModel" method="nextPlayer" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'nextPlayer()' has a cyclomatic complexity of 17.
+</violation>
+<violation beginline="553" endline="553" begincolumn="17" endcolumn="27" rule="NPathComplexity" ruleset="Design" package="org.atlanmod.risk" class="RiskModel" method="nextPlayer" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#npathcomplexity" priority="3">
+The method 'nextPlayer()' has an NPath complexity of 310, current threshold is 100
+</violation>
+<violation beginline="664" endline="664" begincolumn="17" endcolumn="23" rule="CyclomaticComplexity" ruleset="Design" package="org.atlanmod.risk" class="RiskModel" method="turnAI" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'turnAI()' has a cyclomatic complexity of 44.
+</violation>
+<violation beginline="664" endline="664" begincolumn="17" endcolumn="23" rule="NPathComplexity" ruleset="Design" package="org.atlanmod.risk" class="RiskModel" method="turnAI" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#npathcomplexity" priority="3">
+The method 'turnAI()' has an NPath complexity of 2487558, current threshold is 100
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-e\src\main\java\org\atlanmod\risk\RiskView.java">
+<violation beginline="103" endline="186" begincolumn="41" endcolumn="2" rule="TooManyFields" ruleset="Design" package="org.atlanmod.risk" class="PlayerCountDialog" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+<violation beginline="188" endline="382" begincolumn="44" endcolumn="2" rule="TooManyFields" ruleset="Design" package="org.atlanmod.risk" class="PlayerSettingsDialog" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+<violation beginline="384" endline="975" begincolumn="34" endcolumn="2" rule="TooManyFields" ruleset="Design" package="org.atlanmod.risk" class="BoardView" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+<violation beginline="388" endline="388" begincolumn="19" endcolumn="33" rule="UnusedPrivateField" ruleset="Best Practices" package="org.atlanmod.risk" class="BoardView" variable="countriesArray" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'countriesArray'.
+</violation>
+<violation beginline="409" endline="409" begincolumn="17" endcolumn="31" rule="UnusedPrivateField" ruleset="Best Practices" package="org.atlanmod.risk" class="BoardView" variable="continentLabel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'continentLabel'.
+</violation>
+<violation beginline="427" endline="427" begincolumn="20" endcolumn="36" rule="UnusedPrivateField" ruleset="Best Practices" package="org.atlanmod.risk" class="BoardView" variable="selectedComboBox" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'selectedComboBox'.
+</violation>
+<violation beginline="428" endline="428" begincolumn="20" endcolumn="34" rule="UnusedPrivateField" ruleset="Best Practices" package="org.atlanmod.risk" class="BoardView" variable="targetComboBox" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'targetComboBox'.
+</violation>
+<violation beginline="436" endline="436" begincolumn="22" endcolumn="41" rule="UnusedPrivateField" ruleset="Best Practices" package="org.atlanmod.risk" class="BoardView" variable="cardsListScrollPane" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'cardsListScrollPane'.
+</violation>
+</file>
+</pmd>

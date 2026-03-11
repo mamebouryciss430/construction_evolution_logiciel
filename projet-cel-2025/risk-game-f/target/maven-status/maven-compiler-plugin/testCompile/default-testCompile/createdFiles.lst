@@ -1,0 +1,14 @@
+TestDice.class
+TestPlayer.class
+TestCard.class
+TestBoard.class
+TestRisk.class
+TestCountry.class
+TestHistory.class
+TestProxy.class
+TestTwitterSystem.class
+TestWarObserver.class
+TestSetup.class
+TestReplayS3.class
+TestDeck.class
+TestUndoSystem.class

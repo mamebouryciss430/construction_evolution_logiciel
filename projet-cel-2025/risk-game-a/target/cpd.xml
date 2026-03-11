@@ -1,0 +1,1396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd xmlns="https://pmd-code.org/schema/cpd-report"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         pmdVersion="7.14.0"
+         timestamp="2025-12-19T18:25:01.0409892+01:00"
+         version="1.0.0"
+         xsi:schemaLocation="https://pmd-code.org/schema/cpd-report https://pmd.github.io/schema/cpd-report_1_0_0.xsd">
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\Environment.java"
+         totalNumberOfTokens="63"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\Start.java"
+         totalNumberOfTokens="21"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\controller\ConnectCountryController.java"
+         totalNumberOfTokens="692"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\controller\CreateContinentController.java"
+         totalNumberOfTokens="1024"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\controller\CreateCountryController.java"
+         totalNumberOfTokens="708"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\controller\EditContinentController.java"
+         totalNumberOfTokens="553"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\controller\GameModeController.java"
+         totalNumberOfTokens="162"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\controller\GamePlayController.java"
+         totalNumberOfTokens="593"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\controller\NewGameController.java"
+         totalNumberOfTokens="840"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\controller\PlayerController.java"
+         totalNumberOfTokens="2488"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\controller\StartUpTournamentController.java"
+         totalNumberOfTokens="632"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\controller\StartupController.java"
+         totalNumberOfTokens="1674"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\controller\TournmentDetailController.java"
+         totalNumberOfTokens="1049"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\controller\WelcomeScreenController.java"
+         totalNumberOfTokens="218"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\CardModel.java"
+         totalNumberOfTokens="86"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\ContinentsModel.java"
+         totalNumberOfTokens="127"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\CountryModel.java"
+         totalNumberOfTokens="355"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\CreateMapModel.java"
+         totalNumberOfTokens="25"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\GameMapModel.java"
+         totalNumberOfTokens="1564"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\GamePlayModel.java"
+         totalNumberOfTokens="4047"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\PlayerModel.java"
+         totalNumberOfTokens="565"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\TournamentModel.java"
+         totalNumberOfTokens="154"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\strategy\AgressivePlayerStrategy.java"
+         totalNumberOfTokens="878"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\strategy\BenevolentPlayerStrategy.java"
+         totalNumberOfTokens="691"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\strategy\CheaterPlayerStrategy.java"
+         totalNumberOfTokens="1520"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\strategy\HumanPlayerStrategy.java"
+         totalNumberOfTokens="451"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\strategy\RandomPlayerStrategy.java"
+         totalNumberOfTokens="1341"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\strategy\Strategy.java"
+         totalNumberOfTokens="17"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\utilities\Constant.java"
+         totalNumberOfTokens="33"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\utilities\MapButton.java"
+         totalNumberOfTokens="111"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\utilities\MessageUtil.java"
+         totalNumberOfTokens="60"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\utilities\ReadFile.java"
+         totalNumberOfTokens="980"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\utilities\SaveGame.java"
+         totalNumberOfTokens="4834"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\utilities\Validation.java"
+         totalNumberOfTokens="1653"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\utilities\WriteMap.java"
+         totalNumberOfTokens="611"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\IAttackView.java"
+         totalNumberOfTokens="63"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\IConnectCountryView.java"
+         totalNumberOfTokens="41"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\ICreateContinentView.java"
+         totalNumberOfTokens="23"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\ICreateCountryView.java"
+         totalNumberOfTokens="23"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\IEditContinentView.java"
+         totalNumberOfTokens="23"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\IFortificationView.java"
+         totalNumberOfTokens="43"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\IGameModeView.java"
+         totalNumberOfTokens="23"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\INewGameView.java"
+         totalNumberOfTokens="67"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\IReinforcementView.java"
+         totalNumberOfTokens="35"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\IStartUpView.java"
+         totalNumberOfTokens="29"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\ITournamentDetailView.java"
+         totalNumberOfTokens="91"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\IView.java"
+         totalNumberOfTokens="51"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\IViewManager.java"
+         totalNumberOfTokens="76"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\IWelcomeScreenView.java"
+         totalNumberOfTokens="23"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\PlayConsoleView.java"
+         totalNumberOfTokens="300"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\View.java"
+         totalNumberOfTokens="13"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\events\ViewActionEvent.java"
+         totalNumberOfTokens="31"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\events\ViewActionListener.java"
+         totalNumberOfTokens="12"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\events\ViewListSelectionEvent.java"
+         totalNumberOfTokens="115"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\events\ViewListSelectionListener.java"
+         totalNumberOfTokens="11"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\AbstractSwingView.java"
+         totalNumberOfTokens="248"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingAttackView.java"
+         totalNumberOfTokens="2876"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingConnectCountryView.java"
+         totalNumberOfTokens="1556"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingCreateContinentView.java"
+         totalNumberOfTokens="639"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingCreateCountryView.java"
+         totalNumberOfTokens="814"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingEditContinentView.java"
+         totalNumberOfTokens="590"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingFortificationView.java"
+         totalNumberOfTokens="2186"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingGameModeView.java"
+         totalNumberOfTokens="352"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingNewGameView.java"
+         totalNumberOfTokens="1054"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingReinforcementView.java"
+         totalNumberOfTokens="2041"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingStartUpView.java"
+         totalNumberOfTokens="1830"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingTournamentDetailView.java"
+         totalNumberOfTokens="1632"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingViewManager.java"
+         totalNumberOfTokens="207"/>
+   <file path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingWelcomeScreenView.java"
+         totalNumberOfTokens="383"/>
+   <duplication lines="31" tokens="349">
+      <file begintoken="33946"
+            column="41"
+            endcolumn="10"
+            endline="399"
+            endtoken="34294"
+            line="369"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingAttackView.java"/>
+      <file begintoken="39923"
+            column="41"
+            endcolumn="10"
+            endline="264"
+            endtoken="40271"
+            line="234"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingFortificationView.java"/>
+      <codefragment><![CDATA[        welcomePanel.add(this.nextButton);
+
+        int n = this.gameMapModel.getCountries().size();
+        button = new JButton[n];
+
+        PlayerModel pm = new PlayerModel();
+        CountryModel cm = new CountryModel();
+
+        for (int i = 0; i < gameMapModel.getCountries().size(); i++) {
+
+            button[i] = new JButton();
+            button[i].setText(gameMapModel.getCountries().get(i).getCountryName().substring(0, 3));
+            button[i].setBackground(gameMapModel.getCountries().get(i).getBackgroundColor());
+            button[i].setToolTipText("Troops: " + gameMapModel.getCountries().get(i).getArmies());
+            cm = gameMapModel.getCountries().get(i);
+            pm = gamePlayModel.getPlayer(cm);
+            Border border = BorderFactory.createLineBorder(pm.getColor(), 3);
+
+            button[i].setBorder(border);
+            button[i].setOpaque(true);
+            if (this.gameMapModel.getContinents().get(0).getContinentName().equals("clifftop")
+                    || this.gameMapModel.getContinents().get(0).getContinentName().equals("North America")) {
+                button[i].setBounds(this.gameMapModel.getCountries().get(i).getXPosition(),
+                        this.gameMapModel.getCountries().get(i).getYPosition(), 50, 50);
+            } else {
+                button[i].setBounds(this.gameMapModel.getCountries().get(i).getXPosition() * 2,
+                        this.gameMapModel.getCountries().get(i).getYPosition() * 2, 50, 50);
+            }
+
+            graphicPanel.add(button[i]);
+        }
+]]></codefragment>
+   </duplication>
+   <duplication lines="53" tokens="328">
+      <file begintoken="43737"
+            column="39"
+            endcolumn="11"
+            endline="303"
+            endtoken="44064"
+            line="251"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingReinforcementView.java"/>
+      <file begintoken="45611"
+            column="37"
+            endcolumn="11"
+            endline="281"
+            endtoken="45938"
+            line="230"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingStartUpView.java"/>
+      <codefragment><![CDATA[            graphicPanel.add(button[i]);
+        }
+
+    }
+
+    /**
+     * Countries are rendered as button and linked with Swing using Graphics.
+     *
+     * @see java.awt.Window#paint(java.awt.Graphics)
+     */
+    public void paint(final Graphics g) {
+
+        super.paint(g);
+
+        Graphics2D g2 = (Graphics2D) g;
+
+        Point[] connectorPoints = new Point[this.gameMapModel.getCountries().size()];
+
+        for (int i = 0; i < this.gameMapModel.getCountries().size(); i++) {
+            connectorPoints[i] = SwingUtilities.convertPoint(this.gameMapModel.getCountries().get(i), 0, 0, this);
+
+        }
+
+        for (int k = 0; k < this.gameMapModel.getCountries().size(); k++) {
+            if (this.gameMapModel.getCountries().get(k).getLinkedCountries() != null) {
+                ArrayList<CountryModel> neighbourCountries = (ArrayList<CountryModel>) this.gameMapModel.getCountries()
+                        .get(k).getLinkedCountries();
+
+                for (int j = 0; j < neighbourCountries.size(); j++) {
+                    for (int i = 0; i < this.gameMapModel.getCountries().size(); i++)
+                        if (neighbourCountries.get(j).equals(this.gameMapModel.getCountries().get(i)))
+                            g2.drawLine(connectorPoints[i].x + 25, connectorPoints[i].y + 25, connectorPoints[k].x + 25,
+                                    connectorPoints[k].y + 25);
+
+                }
+            }
+        }
+
+    }
+
+    @Override
+    public int getNumOfTroops() {
+        return numOfTroopsComboBox.getSelectedItem() != null ?
+                (int) numOfTroopsComboBox.getSelectedItem() : -1;
+    }
+
+    @Override
+    public CountryModel getCountryModel() {
+        return (CountryModel) countryListComboBox.getSelectedItem();
+    }
+
+    @Override
+    public int getCardId() {
+]]></codefragment>
+   </duplication>
+   <duplication lines="49" tokens="290">
+      <file begintoken="25046"
+            column="60"
+            endcolumn="22"
+            endline="294"
+            endtoken="25335"
+            line="246"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\utilities\SaveGame.java"/>
+      <file begintoken="25665"
+            column="60"
+            endcolumn="18"
+            endline="398"
+            endtoken="25954"
+            line="350"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\utilities\SaveGame.java"/>
+      <codefragment><![CDATA[                JSONArray OwnedCountry = (JSONArray) player.get("ownedCountries");
+                for (Object j : OwnedCountry) {
+                    CountryModel countryModel = new CountryModel();
+                    JSONObject country = (JSONObject) j;
+
+                    if (country.get("countryName") != null) {
+                        content = (String) country.get("countryName");
+                        countryModel.setCountryName(content);
+                    } else {
+                        countryModel.setCountryName("");
+                    }
+
+                    lvalue = (Long) country.get("xPosition");
+                    value = lvalue.intValue();
+                    countryModel.setXPosition(value);
+
+                    lvalue = (Long) country.get("yPosition");
+                    value = lvalue.intValue();
+                    countryModel.setYPosition(value);
+
+                    if (country.get("continentName") != null) {
+                        content = (String) country.get("continentName");
+                        countryModel.setContinentName(content);
+                    } else {
+                        countryModel.setContinentName("");
+                    }
+
+                    lvalue = (Long) country.get("armies");
+                    value = lvalue.intValue();
+                    countryModel.setArmies(value);
+
+                    content = (String) country.get("backgroundColor");
+                    if (content != null ) {
+                        color = new Color(Integer.parseInt(content));
+                        countryModel.setBackgroundColor(color);
+                    }
+
+                    content = (String) country.get("borderColor");
+                    if (content != null ) {
+                        color = new Color(Integer.parseInt(content));
+                        countryModel.setBorderColor(color);
+                    }
+
+                    if (country.get("rulerName") != null) {
+                        content = (String) country.get("rulerName");
+                        countryModel.setRulerName(content);
+                    } else {
+                        countryModel.setRulerName("");
+                    }
+]]></codefragment>
+   </duplication>
+   <duplication lines="46" tokens="281">
+      <file begintoken="36167"
+            column="85"
+            endcolumn="11"
+            endline="278"
+            endtoken="36447"
+            line="233"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingConnectCountryView.java"/>
+      <file begintoken="40300"
+            column="124"
+            endcolumn="11"
+            endline="306"
+            endtoken="40580"
+            line="267"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingFortificationView.java"/>
+      <codefragment><![CDATA[                        e.getFirstIndex(), e.getLastIndex(), e.getValueIsAdjusting()));
+    }
+
+    /*
+     * (non-Javadoc)
+     *
+     * @see java.awt.Window#paint(java.awt.Graphics)
+     */
+    public void paint(final Graphics g) {
+
+        super.paint(g);
+
+        Graphics2D g2 = (Graphics2D) g;
+
+        Point[] connectorPoints = new Point[this.gameMapModel.getCountries().size()];
+
+        for (int i = 0; i < this.gameMapModel.getCountries().size(); i++) {
+            connectorPoints[i] = SwingUtilities.convertPoint(this.gameMapModel.getCountries().get(i), 0, 0, this);
+
+        }
+
+        for (int k = 0; k < this.gameMapModel.getCountries().size(); k++) {
+            if (this.gameMapModel.getCountries().get(k).getLinkedCountries() != null) {
+                ArrayList<CountryModel> neighbourCountries = (ArrayList<CountryModel>) this.gameMapModel.getCountries()
+                        .get(k).getLinkedCountries();
+
+                for (int j = 0; j < neighbourCountries.size(); j++) {
+                    for (int i = 0; i < this.gameMapModel.getCountries().size(); i++)
+                        if (neighbourCountries.get(j).equals(this.gameMapModel.getCountries().get(i)))
+                            g2.drawLine(connectorPoints[i].x + 25, connectorPoints[i].y + 25, connectorPoints[k].x + 25,
+                                    connectorPoints[k].y + 25);
+
+                }
+            }
+        }
+
+    }
+
+    /**
+     * Method "update" updates the gameMapModel associated with.
+     *
+     * @param gameMapModel the game map model
+     * @param arg1         the arg 1
+     */
+    @Override
+    public void update(Observable gameMapModel, Object arg1) {
+]]></codefragment>
+   </duplication>
+   <duplication lines="45" tokens="279">
+      <file begintoken="36169"
+            column="5"
+            endcolumn="11"
+            endline="278"
+            endtoken="36447"
+            line="234"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingConnectCountryView.java"/>
+      <file begintoken="43739"
+            column="5"
+            endcolumn="11"
+            endline="292"
+            endtoken="44017"
+            line="254"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingReinforcementView.java"/>
+      <file begintoken="45613"
+            column="5"
+            endcolumn="11"
+            endline="270"
+            endtoken="45891"
+            line="232"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingStartUpView.java"/>
+      <codefragment><![CDATA[    }
+
+    /*
+     * (non-Javadoc)
+     *
+     * @see java.awt.Window#paint(java.awt.Graphics)
+     */
+    public void paint(final Graphics g) {
+
+        super.paint(g);
+
+        Graphics2D g2 = (Graphics2D) g;
+
+        Point[] connectorPoints = new Point[this.gameMapModel.getCountries().size()];
+
+        for (int i = 0; i < this.gameMapModel.getCountries().size(); i++) {
+            connectorPoints[i] = SwingUtilities.convertPoint(this.gameMapModel.getCountries().get(i), 0, 0, this);
+
+        }
+
+        for (int k = 0; k < this.gameMapModel.getCountries().size(); k++) {
+            if (this.gameMapModel.getCountries().get(k).getLinkedCountries() != null) {
+                ArrayList<CountryModel> neighbourCountries = (ArrayList<CountryModel>) this.gameMapModel.getCountries()
+                        .get(k).getLinkedCountries();
+
+                for (int j = 0; j < neighbourCountries.size(); j++) {
+                    for (int i = 0; i < this.gameMapModel.getCountries().size(); i++)
+                        if (neighbourCountries.get(j).equals(this.gameMapModel.getCountries().get(i)))
+                            g2.drawLine(connectorPoints[i].x + 25, connectorPoints[i].y + 25, connectorPoints[k].x + 25,
+                                    connectorPoints[k].y + 25);
+
+                }
+            }
+        }
+
+    }
+
+    /**
+     * Method "update" updates the gameMapModel associated with.
+     *
+     * @param gameMapModel the game map model
+     * @param arg1         the arg 1
+     */
+    @Override
+    public void update(Observable gameMapModel, Object arg1) {
+]]></codefragment>
+   </duplication>
+   <duplication lines="39" tokens="279">
+      <file begintoken="40302"
+            column="5"
+            endcolumn="11"
+            endline="306"
+            endtoken="40580"
+            line="268"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingFortificationView.java"/>
+      <file begintoken="43739"
+            column="5"
+            endcolumn="11"
+            endline="292"
+            endtoken="44017"
+            line="254"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingReinforcementView.java"/>
+      <file begintoken="45613"
+            column="5"
+            endcolumn="11"
+            endline="270"
+            endtoken="45891"
+            line="232"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingStartUpView.java"/>
+      <codefragment><![CDATA[    }
+
+    /**
+     * Paint the button and links in the panel
+     *
+     * @see java.awt.Window#paint(java.awt.Graphics)
+     */
+    public void paint(final Graphics g) {
+
+        super.paint(g);
+
+        Graphics2D g2 = (Graphics2D) g;
+
+        Point[] connectorPoints = new Point[this.gameMapModel.getCountries().size()];
+
+        for (int i = 0; i < this.gameMapModel.getCountries().size(); i++) {
+            connectorPoints[i] = SwingUtilities.convertPoint(this.gameMapModel.getCountries().get(i), 0, 0, this);
+
+        }
+
+        for (int k = 0; k < this.gameMapModel.getCountries().size(); k++) {
+            if (this.gameMapModel.getCountries().get(k).getLinkedCountries() != null) {
+                ArrayList<CountryModel> neighbourCountries = (ArrayList<CountryModel>) this.gameMapModel.getCountries()
+                        .get(k).getLinkedCountries();
+
+                for (int j = 0; j < neighbourCountries.size(); j++) {
+                    for (int i = 0; i < this.gameMapModel.getCountries().size(); i++)
+                        if (neighbourCountries.get(j).equals(this.gameMapModel.getCountries().get(i)))
+                            g2.drawLine(connectorPoints[i].x + 25, connectorPoints[i].y + 25, connectorPoints[k].x + 25,
+                                    connectorPoints[k].y + 25);
+
+                }
+            }
+        }
+
+    }
+
+    @Override
+    public CountryModel getFromCountryModel() {
+]]></codefragment>
+   </duplication>
+   <duplication lines="38" tokens="277">
+      <file begintoken="34346"
+            column="34"
+            endcolumn="6"
+            endline="446"
+            endtoken="34622"
+            line="409"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingAttackView.java"/>
+      <file begintoken="36168"
+            column="86"
+            endcolumn="6"
+            endline="269"
+            endtoken="36444"
+            line="233"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingConnectCountryView.java"/>
+      <file begintoken="40301"
+            column="125"
+            endcolumn="6"
+            endline="303"
+            endtoken="40577"
+            line="267"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingFortificationView.java"/>
+      <codefragment><![CDATA[        this.setItemListener(this);
+    }
+
+    /**
+     * Countries are rendered as button and linked with Swing using Graphics.
+     *
+     * @param g the g
+     * @see java.awt.Window#paint(java.awt.Graphics)
+     */
+    public void paint(final Graphics g) {
+
+        super.paint(g);
+
+        Graphics2D g2 = (Graphics2D) g;
+
+        Point[] connectorPoints = new Point[this.gameMapModel.getCountries().size()];
+
+        for (int i = 0; i < this.gameMapModel.getCountries().size(); i++) {
+            connectorPoints[i] = SwingUtilities.convertPoint(this.gameMapModel.getCountries().get(i), 0, 0, this);
+
+        }
+
+        for (int k = 0; k < this.gameMapModel.getCountries().size(); k++) {
+            if (this.gameMapModel.getCountries().get(k).getLinkedCountries() != null) {
+                ArrayList<CountryModel> neighbourCountries = (ArrayList<CountryModel>) this.gameMapModel.getCountries()
+                        .get(k).getLinkedCountries();
+
+                for (int j = 0; j < neighbourCountries.size(); j++) {
+                    for (int i = 0; i < this.gameMapModel.getCountries().size(); i++)
+                        if (neighbourCountries.get(j).equals(this.gameMapModel.getCountries().get(i)))
+                            g2.drawLine(connectorPoints[i].x + 25, connectorPoints[i].y + 25, connectorPoints[k].x + 25,
+                                    connectorPoints[k].y + 25);
+
+                }
+            }
+        }
+
+    }
+]]></codefragment>
+   </duplication>
+   <duplication lines="37" tokens="276">
+      <file begintoken="34347"
+            column="5"
+            endcolumn="6"
+            endline="446"
+            endtoken="34622"
+            line="410"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingAttackView.java"/>
+      <file begintoken="43739"
+            column="5"
+            endcolumn="6"
+            endline="289"
+            endtoken="44014"
+            line="254"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingReinforcementView.java"/>
+      <file begintoken="45613"
+            column="5"
+            endcolumn="6"
+            endline="267"
+            endtoken="45888"
+            line="232"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingStartUpView.java"/>
+      <codefragment><![CDATA[    }
+
+    /**
+     * Countries are rendered as button and linked with Swing using Graphics.
+     *
+     * @param g the g
+     * @see java.awt.Window#paint(java.awt.Graphics)
+     */
+    public void paint(final Graphics g) {
+
+        super.paint(g);
+
+        Graphics2D g2 = (Graphics2D) g;
+
+        Point[] connectorPoints = new Point[this.gameMapModel.getCountries().size()];
+
+        for (int i = 0; i < this.gameMapModel.getCountries().size(); i++) {
+            connectorPoints[i] = SwingUtilities.convertPoint(this.gameMapModel.getCountries().get(i), 0, 0, this);
+
+        }
+
+        for (int k = 0; k < this.gameMapModel.getCountries().size(); k++) {
+            if (this.gameMapModel.getCountries().get(k).getLinkedCountries() != null) {
+                ArrayList<CountryModel> neighbourCountries = (ArrayList<CountryModel>) this.gameMapModel.getCountries()
+                        .get(k).getLinkedCountries();
+
+                for (int j = 0; j < neighbourCountries.size(); j++) {
+                    for (int i = 0; i < this.gameMapModel.getCountries().size(); i++)
+                        if (neighbourCountries.get(j).equals(this.gameMapModel.getCountries().get(i)))
+                            g2.drawLine(connectorPoints[i].x + 25, connectorPoints[i].y + 25, connectorPoints[k].x + 25,
+                                    connectorPoints[k].y + 25);
+
+                }
+            }
+        }
+
+    }
+]]></codefragment>
+   </duplication>
+   <duplication lines="44" tokens="263">
+      <file begintoken="25073"
+            column="21"
+            endcolumn="22"
+            endline="294"
+            endtoken="25335"
+            line="251"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\utilities\SaveGame.java"/>
+      <file begintoken="26611"
+            column="17"
+            endcolumn="18"
+            endline="550"
+            endtoken="26873"
+            line="507"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\utilities\SaveGame.java"/>
+      <codefragment><![CDATA[                    if (country.get("countryName") != null) {
+                        content = (String) country.get("countryName");
+                        countryModel.setCountryName(content);
+                    } else {
+                        countryModel.setCountryName("");
+                    }
+
+                    lvalue = (Long) country.get("xPosition");
+                    value = lvalue.intValue();
+                    countryModel.setXPosition(value);
+
+                    lvalue = (Long) country.get("yPosition");
+                    value = lvalue.intValue();
+                    countryModel.setYPosition(value);
+
+                    if (country.get("continentName") != null) {
+                        content = (String) country.get("continentName");
+                        countryModel.setContinentName(content);
+                    } else {
+                        countryModel.setContinentName("");
+                    }
+
+                    lvalue = (Long) country.get("armies");
+                    value = lvalue.intValue();
+                    countryModel.setArmies(value);
+
+                    content = (String) country.get("backgroundColor");
+                    if (content != null ) {
+                        color = new Color(Integer.parseInt(content));
+                        countryModel.setBackgroundColor(color);
+                    }
+
+                    content = (String) country.get("borderColor");
+                    if (content != null ) {
+                        color = new Color(Integer.parseInt(content));
+                        countryModel.setBorderColor(color);
+                    }
+
+                    if (country.get("rulerName") != null) {
+                        content = (String) country.get("rulerName");
+                        countryModel.setRulerName(content);
+                    } else {
+                        countryModel.setRulerName("");
+                    }
+]]></codefragment>
+   </duplication>
+   <duplication lines="44" tokens="263">
+      <file begintoken="25692"
+            column="17"
+            endcolumn="18"
+            endline="398"
+            endtoken="25954"
+            line="355"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\utilities\SaveGame.java"/>
+      <file begintoken="26611"
+            column="17"
+            endcolumn="18"
+            endline="550"
+            endtoken="26873"
+            line="507"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\utilities\SaveGame.java"/>
+      <codefragment><![CDATA[                if (country.get("countryName") != null) {
+                    content = (String) country.get("countryName");
+                    countryModel.setCountryName(content);
+                } else {
+                    countryModel.setCountryName("");
+                }
+
+                lvalue = (Long) country.get("xPosition");
+                value = lvalue.intValue();
+                countryModel.setXPosition(value);
+
+                lvalue = (Long) country.get("yPosition");
+                value = lvalue.intValue();
+                countryModel.setYPosition(value);
+
+                if (country.get("continentName") != null) {
+                    content = (String) country.get("continentName");
+                    countryModel.setContinentName(content);
+                } else {
+                    countryModel.setContinentName("");
+                }
+
+                lvalue = (Long) country.get("armies");
+                value = lvalue.intValue();
+                countryModel.setArmies(value);
+
+                content = (String) country.get("backgroundColor");
+                if (content != null ) {
+                    color = new Color(Integer.parseInt(content));
+                    countryModel.setBackgroundColor(color);
+                }
+
+                content = (String) country.get("borderColor");
+                if (content != null ) {
+                    color = new Color(Integer.parseInt(content));
+                    countryModel.setBorderColor(color);
+                }
+
+                if (country.get("rulerName") != null) {
+                    content = (String) country.get("rulerName");
+                    countryModel.setRulerName(content);
+                } else {
+                    countryModel.setRulerName("");
+                }
+]]></codefragment>
+   </duplication>
+   <duplication lines="77" tokens="249">
+      <file begintoken="34622"
+            column="5"
+            endcolumn="6"
+            endline="522"
+            endtoken="34870"
+            line="446"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingAttackView.java"/>
+      <file begintoken="44083"
+            column="5"
+            endcolumn="6"
+            endline="372"
+            endtoken="44331"
+            line="305"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingReinforcementView.java"/>
+      <codefragment><![CDATA[    }
+
+    /**
+     * Getter method that provides us a map model corresponding to a map name.
+     */
+
+    public class CountryViewRenderer extends BasicComboBoxRenderer {
+
+        /*
+         * (non-Javadoc)
+         *
+         * @see
+         * javax.swing.plaf.basic.BasicComboBoxRenderer#getListCellRendererComponent(
+         * javax.swing.JList, java.lang.Object, int, boolean, boolean)
+         */
+        public Component getListCellRendererComponent(JList list, Object value, int index, boolean isSelected,
+                                                      boolean cellHasFocus) {
+            super.getListCellRendererComponent(list, value, index, isSelected, cellHasFocus);
+
+            CountryModel countryModel = (CountryModel) value;
+            if (countryModel != null)
+                setText(countryModel.getCountryName());
+
+            return this;
+        }
+    }
+
+    /**
+     * Update method is to Update the start up Phase. This is declared as
+     * observable. so when the values are changed the view is updated automatically
+     * by notifying the observer.
+     *
+     * @param obs the obs
+     * @param arg the arg
+     * @see java.util.Observer#update(java.util.Observable, java.lang.Object)
+     */
+    @Override
+    public void update(Observable obs, Object arg) {
+
+        welcomePanel.removeAll();
+        graphicPanel.removeAll();
+        if (obs instanceof GameMapModel) {
+            this.gameMapModel = (GameMapModel) obs;
+        } else if (obs instanceof PlayerModel) {
+            this.playerModel = (PlayerModel) obs;
+        } else if (obs instanceof GamePlayModel) {
+            this.gamePlayModel = (GamePlayModel) obs;
+            this.gameMapModel = this.gamePlayModel.getGameMap();
+        }
+        this.updateWindow(this.gamePlayModel, this.playerModel);
+        this.revalidate();
+        this.repaint();
+
+    }
+
+    /**
+     * This method convert string to color.
+     *
+     * @param value the value
+     * @return the color
+     */
+    public static Color stringToColor(final String value) {
+        if (value == null) {
+            return Color.black;
+        }
+        try {
+            return Color.decode(value);
+        } catch (NumberFormatException nfe) {
+            try {
+                final Field f = Color.class.getField(value);
+
+                return (Color) f.get(null);
+            } catch (Exception ce) {
+                return Color.black;
+            }
+        }
+    }
+]]></codefragment>
+   </duplication>
+   <duplication lines="37" tokens="189">
+      <file begintoken="32698"
+            column="89"
+            endcolumn="10"
+            endline="218"
+            endtoken="32886"
+            line="182"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingAttackView.java"/>
+      <file begintoken="42730"
+            column="90"
+            endcolumn="10"
+            endline="164"
+            endtoken="42918"
+            line="129"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingReinforcementView.java"/>
+      <codefragment><![CDATA[        this.alloutButton.addActionListener(e -> fireViewEvent(IAttackView.ACTION_ALLOUT));
+
+        this.add(welcomePanel);
+
+        this.playerModel = this.gameMapModel.getPlayerTurn();
+        this.welcomeLabel = new JLabel("It's " + playerModel.getName() + "'s turn");
+
+        welcomePanel.setLayout(null);
+        graphicPanel.setLayout(null);
+
+        updateWindow(gamePlayModel, playerModel);
+    }
+
+    /**
+     * This updateWindow method is called whenever the model is updated. It updates
+     * the Screen for attack Phase
+     *
+     * @param gamePlayModel the game play model
+     * @param playerModel   the player model
+     */
+    public void updateWindow(GamePlayModel gamePlayModel, PlayerModel playerModel) {
+
+        Font largeFont = new Font("Serif", Font.BOLD, 18);
+        Font mediumFont = new Font("Serif", Font.BOLD, 14);
+        Font smallFont = new Font("Serif", Font.BOLD, 12);
+
+        this.gamePlayModel = gamePlayModel;
+        this.gameMapModel = gamePlayModel.getGameMap();
+        this.playerModel = this.gameMapModel.getPlayerTurn();
+
+        welcomeLabel.setBounds(1300, 80, 300, 25);
+        welcomeLabel.setFont(largeFont);
+        welcomePanel.add(welcomeLabel);
+
+        if (this.gamePlayModel.getConsoleText() != null) {
+            this.consoleTextArea.setText(this.gamePlayModel.getConsoleText().toString());
+        }
+]]></codefragment>
+   </duplication>
+   <duplication lines="15" tokens="176">
+      <file begintoken="34119"
+            column="73"
+            endcolumn="10"
+            endline="399"
+            endtoken="34294"
+            line="385"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingAttackView.java"/>
+      <file begintoken="43563"
+            column="63"
+            endcolumn="10"
+            endline="252"
+            endtoken="43738"
+            line="238"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingReinforcementView.java"/>
+      <codefragment><![CDATA[            Border border = BorderFactory.createLineBorder(pm.getColor(), 3);
+
+            button[i].setBorder(border);
+            button[i].setOpaque(true);
+            if (this.gameMapModel.getContinents().get(0).getContinentName().equals("clifftop")
+                    || this.gameMapModel.getContinents().get(0).getContinentName().equals("North America")) {
+                button[i].setBounds(this.gameMapModel.getCountries().get(i).getXPosition(),
+                        this.gameMapModel.getCountries().get(i).getYPosition(), 50, 50);
+            } else {
+                button[i].setBounds(this.gameMapModel.getCountries().get(i).getXPosition() * 2,
+                        this.gameMapModel.getCountries().get(i).getYPosition() * 2, 50, 50);
+            }
+
+            graphicPanel.add(button[i]);
+        }
+]]></codefragment>
+   </duplication>
+   <duplication lines="15" tokens="176">
+      <file begintoken="40096"
+            column="73"
+            endcolumn="10"
+            endline="264"
+            endtoken="40271"
+            line="250"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingFortificationView.java"/>
+      <file begintoken="43563"
+            column="63"
+            endcolumn="10"
+            endline="252"
+            endtoken="43738"
+            line="238"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingReinforcementView.java"/>
+      <codefragment><![CDATA[            Border border = BorderFactory.createLineBorder(pm.getColor(), 3);
+
+            button[i].setBorder(border);
+            button[i].setOpaque(true);
+            if (this.gameMapModel.getContinents().get(0).getContinentName().equals("clifftop")
+                    || this.gameMapModel.getContinents().get(0).getContinentName().equals("North America")) {
+                button[i].setBounds(this.gameMapModel.getCountries().get(i).getXPosition(),
+                        this.gameMapModel.getCountries().get(i).getYPosition(), 50, 50);
+            } else {
+                button[i].setBounds(this.gameMapModel.getCountries().get(i).getXPosition() * 2,
+                        this.gameMapModel.getCountries().get(i).getYPosition() * 2, 50, 50);
+            }
+
+            graphicPanel.add(button[i]);
+        }
+]]></codefragment>
+   </duplication>
+   <duplication lines="14" tokens="160">
+      <file begintoken="33947"
+            column="9"
+            endcolumn="45"
+            endline="384"
+            endtoken="34106"
+            line="371"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingAttackView.java"/>
+      <file begintoken="43387"
+            column="9"
+            endcolumn="45"
+            endline="236"
+            endtoken="43546"
+            line="223"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingReinforcementView.java"/>
+      <codefragment><![CDATA[        int n = this.gameMapModel.getCountries().size();
+        button = new JButton[n];
+
+        PlayerModel pm = new PlayerModel();
+        CountryModel cm = new CountryModel();
+
+        for (int i = 0; i < gameMapModel.getCountries().size(); i++) {
+
+            button[i] = new JButton();
+            button[i].setText(gameMapModel.getCountries().get(i).getCountryName().substring(0, 3));
+            button[i].setBackground(gameMapModel.getCountries().get(i).getBackgroundColor());
+            button[i].setToolTipText("Troops: " + gameMapModel.getCountries().get(i).getArmies());
+            cm = gameMapModel.getCountries().get(i);
+            pm = gamePlayModel.getPlayer(cm);
+]]></codefragment>
+   </duplication>
+   <duplication lines="14" tokens="160">
+      <file begintoken="39924"
+            column="9"
+            endcolumn="45"
+            endline="249"
+            endtoken="40083"
+            line="236"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingFortificationView.java"/>
+      <file begintoken="43387"
+            column="9"
+            endcolumn="45"
+            endline="236"
+            endtoken="43546"
+            line="223"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingReinforcementView.java"/>
+      <codefragment><![CDATA[        int n = this.gameMapModel.getCountries().size();
+        button = new JButton[n];
+
+        PlayerModel pm = new PlayerModel();
+        CountryModel cm = new CountryModel();
+
+        for (int i = 0; i < gameMapModel.getCountries().size(); i++) {
+
+            button[i] = new JButton();
+            button[i].setText(gameMapModel.getCountries().get(i).getCountryName().substring(0, 3));
+            button[i].setBackground(gameMapModel.getCountries().get(i).getBackgroundColor());
+            button[i].setToolTipText("Troops: " + gameMapModel.getCountries().get(i).getArmies());
+            cm = gameMapModel.getCountries().get(i);
+            pm = gamePlayModel.getPlayer(cm);
+]]></codefragment>
+   </duplication>
+   <duplication lines="9" tokens="149">
+      <file begintoken="19859"
+            column="9"
+            endcolumn="22"
+            endline="93"
+            endtoken="20007"
+            line="85"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\strategy\CheaterPlayerStrategy.java"/>
+      <file begintoken="21756"
+            column="9"
+            endcolumn="22"
+            endline="96"
+            endtoken="21904"
+            line="88"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\strategy\RandomPlayerStrategy.java"/>
+      <codefragment><![CDATA[        if (val.checkIfValidMove(this.gamePlayModel.getGameMap(),
+                this.gamePlayModel.getGameMap().getPlayerTurn().getOwnedCountries().get(index1),
+                this.gamePlayModel.getGameMap().getPlayerTurn().getOwnedCountries().get(index2))) {
+            this.gamePlayModel.getGameMap().setMovingArmies(armies,
+                    this.gamePlayModel.getGameMap().getPlayerTurn().getOwnedCountries().get(index1),
+                    this.gamePlayModel.getGameMap().getPlayerTurn().getOwnedCountries().get(index2));
+            this.gamePlayModel.getConsole().append("From Country "
+                    + this.gamePlayModel.getGameMap().getPlayerTurn().getOwnedCountries().get(index1).getCountryName()
+                    + "armies " + armies + " has been moved to "
+]]></codefragment>
+   </duplication>
+   <duplication lines="19" tokens="147">
+      <file begintoken="43189"
+            column="49"
+            endcolumn="48"
+            endline="214"
+            endtoken="43335"
+            line="196"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingReinforcementView.java"/>
+      <file begintoken="45083"
+            column="45"
+            endcolumn="44"
+            endline="194"
+            endtoken="45229"
+            line="176"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingStartUpView.java"/>
+      <codefragment><![CDATA[            countryListLabel.setBounds(1300, 180, 150, 25);
+            welcomePanel.add(this.countryListLabel);
+
+            ArrayList<CountryModel> listOfCountries = new ArrayList<CountryModel>();
+            for (int i = 0; i < this.gameMapModel.getCountries().size(); i++) {
+                if (playerModel.getName().equals(this.gameMapModel.getCountries().get(i).getRulerName())) {
+                    listOfCountries.add(this.gameMapModel.getCountries().get(i));
+                }
+            }
+
+            countriesViewRenderer = new CountryViewRenderer();
+            countryListArray = listOfCountries.toArray();
+            countryListComboBox = new JComboBox(countryListArray);
+            welcomePanel.add(this.countryListComboBox);
+
+            if (countryListArray.length > 0) {
+                countryListComboBox.setRenderer(countriesViewRenderer);
+            }
+            countryListComboBox.setBounds(1300, 220, 150, 25);
+]]></codefragment>
+   </duplication>
+   <duplication lines="38" tokens="139">
+      <file begintoken="20614"
+            column="9"
+            endcolumn="2"
+            endline="182"
+            endtoken="20752"
+            line="145"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\strategy\CheaterPlayerStrategy.java"/>
+      <file begintoken="22408"
+            column="9"
+            endcolumn="2"
+            endline="178"
+            endtoken="22546"
+            line="147"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\model\strategy\RandomPlayerStrategy.java"/>
+      <codefragment><![CDATA[        }
+
+    }
+
+    /**
+     * Index randomvalues.
+     *
+     * @return an index the int
+     */
+    public int indexRandomvalues() {
+        boolean flag = false;
+        index2 = getRandomBetweenRange(1, this.gamePlayModel.getGameMap().getPlayerTurn().getOwnedCountries().size());
+
+        if (index1 == index2) {
+            flag = true;
+        }
+        while (flag == true) {
+            index2 = getRandomBetweenRange(1,
+                    this.gamePlayModel.getGameMap().getPlayerTurn().getOwnedCountries().size());
+            if (index1 != index2) {
+                flag = false;
+            }
+        }
+        return index2;
+    }
+
+    /**
+     * This method gives the Random generation of numbers within two values.
+     *
+     * @param min the min
+     * @param max the max
+     * @return the random between range
+     */
+    public int getRandomBetweenRange(double min, double max) {
+        int x = (int) ((Math.random() * ((max - min) + 1)) + min);
+        return x;
+    }
+}
+]]></codefragment>
+   </duplication>
+   <duplication lines="14" tokens="127">
+      <file begintoken="32455"
+            column="66"
+            endcolumn="14"
+            endline="169"
+            endtoken="32581"
+            line="156"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingAttackView.java"/>
+      <file begintoken="38914"
+            column="72"
+            endcolumn="14"
+            endline="113"
+            endtoken="39040"
+            line="100"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingFortificationView.java"/>
+      <file begintoken="42583"
+            column="87"
+            endcolumn="14"
+            endline="128"
+            endtoken="42709"
+            line="112"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingReinforcementView.java"/>
+      <file begintoken="44563"
+            column="68"
+            endcolumn="14"
+            endline="115"
+            endtoken="44689"
+            line="103"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingStartUpView.java"/>
+      <codefragment><![CDATA[        this.consoleTextArea = new JTextArea("Attack Phase !!!\n", 10, 500);
+        this.consoleTextArea.setEditable(false);
+        this.consoleTextArea.setFocusable(false);
+        this.consoleTextArea.setVisible(true);
+        this.consoleTextArea.setForeground(Color.WHITE);
+        this.consoleTextArea.setBackground(Color.BLACK);
+        DefaultCaret caret = (DefaultCaret) this.consoleTextArea.getCaret();
+        caret.setUpdatePolicy(DefaultCaret.OUT_BOTTOM);
+        this.consolePanel = new JScrollPane(this.consoleTextArea);
+        this.consolePanel.setPreferredSize(new Dimension(1580, 130));
+        this.consoleMainPanel.add(this.consolePanel, BorderLayout.WEST);
+        this.getContentPane().add(this.consoleMainPanel, BorderLayout.SOUTH);
+
+        this.nextButton = new JButton("Next");
+]]></codefragment>
+   </duplication>
+   <duplication lines="30" tokens="111">
+      <file begintoken="40772"
+            column="48"
+            endcolumn="2"
+            endline="381"
+            endtoken="40882"
+            line="352"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingFortificationView.java"/>
+      <file begintoken="46053"
+            column="46"
+            endcolumn="2"
+            endline="347"
+            endtoken="46163"
+            line="315"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingStartUpView.java"/>
+      <codefragment><![CDATA[        } else if (obs instanceof GamePlayModel) {
+            this.playerModel = (PlayerModel) obs;
+        }
+        this.updateWindow(this.gamePlayModel, this.playerModel);
+        this.revalidate();
+        this.repaint();
+
+    }
+
+    public static Color stringToColor(final String value) {
+        if (value == null) {
+            return Color.black;
+        }
+        try {
+            // get color by hex or octal value
+            return Color.decode(value);
+        } catch (NumberFormatException nfe) {
+            // if we can't decode lets try to get it by name
+            try {
+                // try to get a color by name using reflection
+                final Field f = Color.class.getField(value);
+
+                return (Color) f.get(null);
+            } catch (Exception ce) {
+                // if we can't get any color return black
+                return Color.black;
+            }
+        }
+    }
+}]]></codefragment>
+   </duplication>
+   <duplication lines="28" tokens="101">
+      <file begintoken="40782"
+            column="9"
+            endcolumn="2"
+            endline="381"
+            endtoken="40882"
+            line="354"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingFortificationView.java"/>
+      <file begintoken="44232"
+            column="9"
+            endcolumn="2"
+            endline="374"
+            endtoken="44332"
+            line="344"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingReinforcementView.java"/>
+      <codefragment><![CDATA[        }
+        this.updateWindow(this.gamePlayModel, this.playerModel);
+        this.revalidate();
+        this.repaint();
+
+    }
+
+    public static Color stringToColor(final String value) {
+        if (value == null) {
+            return Color.black;
+        }
+        try {
+            // get color by hex or octal value
+            return Color.decode(value);
+        } catch (NumberFormatException nfe) {
+            // if we can't decode lets try to get it by name
+            try {
+                // try to get a color by name using reflection
+                final Field f = Color.class.getField(value);
+
+                return (Color) f.get(null);
+            } catch (Exception ce) {
+                // if we can't get any color return black
+                return Color.black;
+            }
+        }
+    }
+}]]></codefragment>
+   </duplication>
+   <duplication lines="31" tokens="101">
+      <file begintoken="44232"
+            column="9"
+            endcolumn="2"
+            endline="374"
+            endtoken="44332"
+            line="344"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingReinforcementView.java"/>
+      <file begintoken="46063"
+            column="9"
+            endcolumn="2"
+            endline="347"
+            endtoken="46163"
+            line="317"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingStartUpView.java"/>
+      <codefragment><![CDATA[        }
+        this.updateWindow(this.gamePlayModel, this.playerModel);
+        this.revalidate();
+        this.repaint();
+
+    }
+
+    /**
+     * This method convert string to color
+     *
+     * @param value
+     * @return
+     */
+    public static Color stringToColor(final String value) {
+        if (value == null) {
+            return Color.black;
+        }
+        try {
+            return Color.decode(value);
+        } catch (NumberFormatException nfe) {
+            try {
+                final Field f = Color.class.getField(value);
+
+                return (Color) f.get(null);
+            } catch (Exception ce) {
+                return Color.black;
+            }
+        }
+    }
+
+}]]></codefragment>
+   </duplication>
+   <duplication lines="29" tokens="100">
+      <file begintoken="34771"
+            column="9"
+            endcolumn="6"
+            endline="522"
+            endtoken="34870"
+            line="494"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingAttackView.java"/>
+      <file begintoken="40782"
+            column="9"
+            endcolumn="6"
+            endline="380"
+            endtoken="40881"
+            line="354"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingFortificationView.java"/>
+      <file begintoken="46063"
+            column="9"
+            endcolumn="6"
+            endline="345"
+            endtoken="46162"
+            line="317"
+            path="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-a\src\main\java\com\risk\view\impl\swing\SwingStartUpView.java"/>
+      <codefragment><![CDATA[        }
+        this.updateWindow(this.gamePlayModel, this.playerModel);
+        this.revalidate();
+        this.repaint();
+
+    }
+
+    /**
+     * This method convert string to color.
+     *
+     * @param value the value
+     * @return the color
+     */
+    public static Color stringToColor(final String value) {
+        if (value == null) {
+            return Color.black;
+        }
+        try {
+            return Color.decode(value);
+        } catch (NumberFormatException nfe) {
+            try {
+                final Field f = Color.class.getField(value);
+
+                return (Color) f.get(null);
+            } catch (Exception ce) {
+                return Color.black;
+            }
+        }
+    }
+]]></codefragment>
+   </duplication>
+</pmd-cpd>

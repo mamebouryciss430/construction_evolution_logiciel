@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.14.0" timestamp="2025-12-19T18:31:15.243">
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-b\src\main\java\Controller\RiskGameController.java">
+<violation beginline="49" endline="543" begincolumn="62" endcolumn="2" rule="TooManyMethods" ruleset="Design" package="Controller" class="RiskGameController" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="49" endline="543" begincolumn="62" endcolumn="2" rule="TooManyFields" ruleset="Design" package="Controller" class="RiskGameController" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+<violation beginline="139" endline="139" begincolumn="14" endcolumn="29" rule="CyclomaticComplexity" ruleset="Design" package="Controller" class="RiskGameController" method="countrySelected" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'countrySelected(Country)' has a cyclomatic complexity of 10.
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-b\src\main\java\Model\AttackResult.java">
+<violation beginline="12" endline="12" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="Model" class="AttackResult" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'AttackResult' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=5)
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-b\src\main\java\Model\Player.java">
+<violation beginline="89" endline="89" begincolumn="13" endcolumn="41" rule="CyclomaticComplexity" ruleset="Design" package="Model" class="Player" method="exchangeCardsIfPossibleInner" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'exchangeCardsIfPossibleInner()' has a cyclomatic complexity of 21.
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-b\src\main\java\Model\RiskGameModel.java">
+<violation beginline="18" endline="18" begincolumn="8" endcolumn="13" rule="CyclomaticComplexity" ruleset="Design" package="Model" class="RiskGameModel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'RiskGameModel' has a total cyclomatic complexity of 104 (highest 15).
+</violation>
+<violation beginline="18" endline="584" begincolumn="28" endcolumn="2" rule="TooManyMethods" ruleset="Design" package="Model" class="RiskGameModel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="18" endline="584" begincolumn="28" endcolumn="2" rule="TooManyFields" ruleset="Design" package="Model" class="RiskGameModel" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+<violation beginline="142" endline="142" begincolumn="22" endcolumn="47" rule="CyclomaticComplexity" ruleset="Design" package="Model" class="RiskGameModel" method="attackTerritoryWithResult" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'attackTerritoryWithResult(int, int, int, int)' has a cyclomatic complexity of 15.
+</violation>
+<violation beginline="142" endline="142" begincolumn="22" endcolumn="47" rule="NPathComplexity" ruleset="Design" package="Model" class="RiskGameModel" method="attackTerritoryWithResult" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#npathcomplexity" priority="3">
+The method 'attackTerritoryWithResult(int, int, int, int)' has an NPath complexity of 514, current threshold is 100
+</violation>
+<violation beginline="254" endline="254" begincolumn="27" endcolumn="33" rule="UnusedFormalParameter" ruleset="Best Practices" package="Model" class="RiskGameModel" method="winGame" variable="winner" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'winner'.
+</violation>
+<violation beginline="313" endline="313" begincolumn="13" endcolumn="20" rule="CyclomaticComplexity" ruleset="Design" package="Model" class="RiskGameModel" method="endTurn" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'endTurn()' has a cyclomatic complexity of 10.
+</violation>
+<violation beginline="355" endline="355" begincolumn="17" endcolumn="26" rule="CyclomaticComplexity" ruleset="Design" package="Model" class="RiskGameModel" method="reinforce" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'reinforce(int)' has a cyclomatic complexity of 11.
+</violation>
+<violation beginline="496" endline="496" begincolumn="20" endcolumn="25" rule="UnusedAssignment" ruleset="Best Practices" package="Model" class="RiskGameModel" method="transfer" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedassignment" priority="3">
+The value assigned to field 'hasTransferred' is never used (overwritten on line 506)
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-b\src\main\java\Model\SaveData.java">
+<violation beginline="5" endline="5" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="Model" class="SaveData" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'SaveData' is suspected to be a Data Class (WOC=0.000%, NOPA=8, NOAM=0, WMC=0)
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-b\src\main\java\Model\Territory.java">
+<violation beginline="12" endline="12" begincolumn="8" endcolumn="13" rule="DataClass" ruleset="Design" package="Model" class="Territory" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Territory' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=5, WMC=7)
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-b\src\main\java\View\Country.java">
+<violation beginline="10" endline="10" begincolumn="8" endcolumn="12" rule="DataClass" ruleset="Design" package="View" class="Country" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Country' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=4, WMC=6)
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-b\src\main\java\View\JFXAddPlayerView.java">
+<violation beginline="24" endline="138" begincolumn="51" endcolumn="2" rule="TooManyFields" ruleset="Design" package="View" class="JFXAddPlayerView" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-b\src\main\java\View\JFXAttackResultView.java">
+<violation beginline="15" endline="93" begincolumn="54" endcolumn="2" rule="TooManyFields" ruleset="Design" package="View" class="JFXAttackResultView" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-b\src\main\java\View\JFXAttackView.java">
+<violation beginline="21" endline="86" begincolumn="48" endcolumn="2" rule="TooManyFields" ruleset="Design" package="View" class="JFXAttackView" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-b\src\main\java\View\JFXCardView.java">
+<violation beginline="22" endline="117" begincolumn="46" endcolumn="2" rule="TooManyFields" ruleset="Design" package="View" class="JFXCardView" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-b\src\main\java\View\JFXMainView.java">
+<violation beginline="37" endline="363" begincolumn="46" endcolumn="2" rule="TooManyFields" ruleset="Design" package="View" class="JFXMainView" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+<violation beginline="223" endline="223" begincolumn="16" endcolumn="31" rule="UnusedPrivateMethod" ruleset="Best Practices" package="View" class="JFXMainView" method="handleLogButton" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'handleLogButton(ActionEvent)'.
+</violation>
+<violation beginline="223" endline="223" begincolumn="44" endcolumn="49" rule="UnusedFormalParameter" ruleset="Best Practices" package="View" class="JFXMainView" method="handleLogButton" variable="event" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'event'.
+</violation>
+<violation beginline="230" endline="230" begincolumn="16" endcolumn="36" rule="UnusedPrivateMethod" ruleset="Best Practices" package="View" class="JFXMainView" method="hangleSettingsButton" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'hangleSettingsButton(ActionEvent)'.
+</violation>
+<violation beginline="230" endline="230" begincolumn="49" endcolumn="54" rule="UnusedFormalParameter" ruleset="Best Practices" package="View" class="JFXMainView" method="hangleSettingsButton" variable="event" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'event'.
+</violation>
+<violation beginline="240" endline="240" begincolumn="16" endcolumn="32" rule="UnusedPrivateMethod" ruleset="Best Practices" package="View" class="JFXMainView" method="hangleSaveButton" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'hangleSaveButton(ActionEvent)'.
+</violation>
+<violation beginline="240" endline="240" begincolumn="45" endcolumn="50" rule="UnusedFormalParameter" ruleset="Best Practices" package="View" class="JFXMainView" method="hangleSaveButton" variable="event" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'event'.
+</violation>
+<violation beginline="245" endline="245" begincolumn="16" endcolumn="32" rule="UnusedPrivateMethod" ruleset="Best Practices" package="View" class="JFXMainView" method="hangleLoadButton" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+Avoid unused private methods such as 'hangleLoadButton(ActionEvent)'.
+</violation>
+<violation beginline="245" endline="245" begincolumn="45" endcolumn="50" rule="UnusedFormalParameter" ruleset="Best Practices" package="View" class="JFXMainView" method="hangleLoadButton" variable="event" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'event'.
+</violation>
+</file>
+<file name="C:\Users\mameb\Documents\Sauvegarde\L3 INFO 2026\SEMESTRE 1\Construction et Evolution Logiciel\projet-ce-2025\risk-game-b\src\main\java\View\World.java">
+<violation beginline="51" endline="51" begincolumn="8" endcolumn="13" rule="GodClass" ruleset="Design" package="View" class="World" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#godclass" priority="3">
+Possible God Class (WMC=66, ATFD=99, TCC=5.413%)
+</violation>
+<violation beginline="51" endline="736" begincolumn="35" endcolumn="2" rule="TooManyFields" ruleset="Design" package="View" class="World" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#toomanyfields" priority="3">
+Too many fields
+</violation>
+<violation beginline="482" endline="482" begincolumn="15" endcolumn="31" rule="CyclomaticComplexity" ruleset="Design" package="View" class="World" method="handleMouseEvent" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'handleMouseEvent(MouseEvent, EventHandler&lt;MouseEvent&gt;)' has a cyclomatic complexity of 27.
+</violation>
+</file>
+</pmd>

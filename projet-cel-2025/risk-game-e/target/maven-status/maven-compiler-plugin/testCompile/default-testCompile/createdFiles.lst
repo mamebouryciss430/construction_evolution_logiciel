@@ -1,0 +1,6 @@
+org\atlanmod\risk\DiceTest.class
+org\atlanmod\risk\DeckTest.class
+org\atlanmod\risk\BoardTest.class
+org\atlanmod\risk\ContinentTest.class
+org\atlanmod\risk\PlayerTest.class
+org\atlanmod\risk\CardTest.class

@@ -1,0 +1,6 @@
+com.risk.model
+com.risk.services
+com.risk.services.gameplay
+com.risk.services.saveload
+com.risk.strategy
+com.risk.testsuite

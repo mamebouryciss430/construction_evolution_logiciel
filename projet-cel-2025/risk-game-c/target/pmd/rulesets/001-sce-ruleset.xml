@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ruleset name="Nantes Maven PMD Plugin Ruleset"
+    xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+
+    <description>
+        Rule set for Nantes University student Java projects.
+    </description>
+    
+	<rule ref="category/java/design.xml/GodClass" />
+	<rule ref="category/java/design.xml/DataClass" />
+	<rule ref="category/java/design.xml/CyclomaticComplexity" /> 
+
+	<rule ref="category/java/design.xml/TooManyMethods">
+		<properties>
+			<property name="maxmethods" value="20" />
+		</properties>
+	</rule>
+    
+	<rule ref="category/java/design.xml/TooManyFields">
+		<properties>
+			<property name="maxfields" value="10" />
+		</properties>
+	</rule>
+    
+	<rule ref="category/java/design.xml/ExcessiveParameterList">
+		<properties>
+			<property name="minimum" value="5" />
+		</properties>
+	</rule>
+    
+	<rule ref="category/java/design.xml/NPathComplexity">
+		<properties>
+			<property name="reportLevel" value="100" />
+		</properties>
+	</rule>
+    
+    <!-- Dead Code -->
+    
+    <rule ref="category/java/bestpractices.xml/UnusedPrivateField" />
+    <rule ref="category/java/bestpractices.xml/UnusedPrivateMethod" />
+    <rule ref="category/java/bestpractices.xml/UnusedFormalParameter" />
+    <rule ref="category/java/bestpractices.xml/UnusedAssignment" />
+    <rule ref="category/java/bestpractices.xml/UnusedPrivateField" />
+    
+
+
+    <rule ref="category/java/design.xml/AvoidDeeplyNestedIfStmts">
+        <properties>
+            <property name="problemDepth" value="3" />
+        </properties>
+    </rule>
+    
+</ruleset>
